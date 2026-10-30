@@ -1,0 +1,1540 @@
+{
+ "modeSub": {
+  "rua": "The cars you've caught on the street, from Common to Unicorn. Only cars that are driving or parked count: museums, shows, races and festivals go in the other logbook. Club team buses count when they're on the move.",
+  "expo": "Cars seen at museums, shows, races, festivals and meets. Almost everything here is special, so the scale is tougher than the street one.",
+  "dex": "Every car brand, like a Pokédex. A brand counts as caught when you have at least one of its cars, on the Street or at Shows."
+ },
+ "tiers": {
+  "rua": [
+   {
+    "name": "Common",
+    "desc": "You see loads of them every day.",
+    "ex": "Renault Clio, Peugeot 208, VW Golf, Opel Corsa"
+   },
+   {
+    "name": "Frequent",
+    "desc": "Seen a lot, just a bit less than the common ones.",
+    "ex": "Škoda Superb, Hyundai Tucson, BMW 3 Series, Tesla Model 3"
+   },
+   {
+    "name": "Uncommon",
+    "desc": "Turns up every now and then.",
+    "ex": "Mazda MX-5, Fiat 500 Abarth, Volvo 240, Mini Convertible"
+   },
+   {
+    "name": "Interesting",
+    "desc": "You make a point of taking a second look.",
+    "ex": "Ford Mustang, BMW Z4, Porsche Macan, a club's team bus"
+   },
+   {
+    "name": "Rare",
+    "desc": "You can go months without seeing one.",
+    "ex": "Renault Mégane CC, Renault Avantime, Fiat Coupé, classic Citroën DS"
+   },
+   {
+    "name": "Very rare",
+    "desc": "Proper sports cars and luxury cars.",
+    "ex": "Porsche Panamera, Porsche 911, Mercedes G-Class, Maserati"
+   },
+   {
+    "name": "Epic",
+    "desc": "The cars that stop the whole street.",
+    "ex": "Lamborghini Urus, Ferrari Roma, Bentley Continental, Porsche 911 GT3"
+   },
+   {
+    "name": "Legendary",
+    "desc": "Supercars. Maybe you'll see one a year.",
+    "ex": "Lamborghini Revuelto, Ferrari SF90, McLaren 750S, Rolls-Royce"
+   },
+   {
+    "name": "Mythic",
+    "desc": "Hypercars and ultra-rare classics out on the road.",
+    "ex": "Bugatti, Pagani, Koenigsegg, Ferrari F40"
+   },
+   {
+    "name": "Unicorn",
+    "desc": "Almost impossible to catch on the street: one-of-a-kind cars or ones with only a handful made in the world.",
+    "ex": "Prototypes on test, one-offs, Ferrari 250 GTO, McLaren F1"
+   }
+  ],
+  "expo": [
+   {
+    "name": "Common",
+    "desc": "Turns up at almost every show and event.",
+    "ex": "Beetle, classic Mini, Mustang, Camaro, classic Golf GTI"
+   },
+   {
+    "name": "Frequent",
+    "desc": "Well-kept popular classics and well-known sports cars.",
+    "ex": "Classic Fiat 500, Citroën 2CV, BMW M3, modern Porsche 911"
+   },
+   {
+    "name": "Uncommon",
+    "desc": "Less-seen classics and proper sports cars.",
+    "ex": "Classic Porsche 911, classic Mercedes SL, classic Alfa Romeo, military jeeps"
+   },
+   {
+    "name": "Interesting",
+    "desc": "You make a point of stopping for a closer look.",
+    "ex": "Tanks, rally cars, Lotus, rare muscle cars"
+   },
+   {
+    "name": "Rare",
+    "desc": "Modern supercars.",
+    "ex": "Ferrari, Lamborghini, McLaren, Porsche 911 GT3"
+   },
+   {
+    "name": "Very rare",
+    "desc": "Track versions and race cars.",
+    "ex": "Porsche GT4 RS and GT2 RS, Ferrari Pista, GT3 and Formula cars"
+   },
+   {
+    "name": "Epic",
+    "desc": "Valuable classics and very limited editions.",
+    "ex": "Mercedes 300 SL Gullwing, Lamborghini Miura, Lancia Stratos, Ferrari Daytona"
+   },
+   {
+    "name": "Legendary",
+    "desc": "Hypercars and motorsport legends.",
+    "ex": "Ferrari F40, McLaren P1, Porsche 918, championship-winning F1 cars"
+   },
+   {
+    "name": "Mythic",
+    "desc": "Ultra-rare pieces that few museums in the world have.",
+    "ex": "Bugatti, Pagani, Koenigsegg, Ferrari Enzo, McLaren F1"
+   },
+   {
+    "name": "Unicorn",
+    "desc": "One of a kind in the world.",
+    "ex": "Prototypes, concept cars, one-offs, Ferrari 250 GTO"
+   }
+  ]
+ },
+ "types": {
+  "popular": "Mainstream",
+  "premium": "Premium",
+  "desportiva": "Sports",
+  "super": "Supercar",
+  "hiper": "Hypercar",
+  "luxo": "Luxury",
+  "eletrica": "Electric",
+  "classica": "Classic",
+  "trabalho": "Commercial"
+ },
+ "countries": {
+  "Itália": "Italy",
+  "Japão": "Japan",
+  "França": "France",
+  "Alemanha": "Germany",
+  "Reino Unido": "United Kingdom",
+  "EUA": "USA",
+  "China": "China",
+  "Espanha": "Spain",
+  "Roménia": "Romania",
+  "Coreia do Sul": "South Korea",
+  "Países Baixos": "Netherlands",
+  "Suécia": "Sweden",
+  "Rússia": "Russia",
+  "Índia": "India",
+  "Reino Unido / China": "United Kingdom / China",
+  "Portugal": "Portugal",
+  "Croácia": "Croatia",
+  "República Checa": "Czech Republic",
+  "Alemanha de Leste": "East Germany",
+  "Dinamarca": "Denmark",
+  "Austrália": "Australia",
+  "Malásia": "Malaysia",
+  "Vietname": "Vietnam",
+  "Emirados Árabes Unidos": "United Arab Emirates"
+ },
+ "names": {
+  "Quattro (clássico)": "Quattro (classic)",
+  "Série 1": "1 Series",
+  "Série 2": "2 Series",
+  "Série 3": "3 Series",
+  "Série 4": "4 Series",
+  "Série 5": "5 Series",
+  "Série 6": "6 Series",
+  "Série 7": "7 Series",
+  "Série 8": "8 Series",
+  "Ram (antiga)": "Ram (old)",
+  "500 (clássico)": "500 (classic)",
+  "Elétrico": "Electric",
+  "Classe S": "S-Class",
+  "Classe A": "A-Class",
+  "Classe B": "B-Class",
+  "Classe C": "C-Class",
+  "Classe E": "E-Class",
+  "Classe G": "G-Class",
+  "Classe V": "V-Class",
+  "Classe X": "X-Class",
+  "Mini clássico": "Classic Mini",
+  "Jipe Portaro": "Portaro 4x4",
+  "Série G": "G-series",
+  "Série P": "P-series",
+  "Série R": "R-series",
+  "Série S": "S-series",
+  "Carocha": "Beetle",
+  "Pão de Forma": "Type 2 (Bus)"
+ },
+ "facts": {
+  "Abarth": "The scorpion on the badge is the star sign of the founder, Carlo Abarth.",
+  "Acura": "Honda's luxury brand in America.",
+  "Aixam": "Makes licence-free microcars that you can drive from age 16.",
+  "Alfa Romeo": "The badge has a serpent, an old symbol of the city of Milan.",
+  "Alpina": "Turned BMWs into even faster and more comfortable cars.",
+  "Alpine": "Born winning rallies, and today it belongs to Renault.",
+  "Aston Martin": "James Bond's car brand.",
+  "Audi": "The four rings are four brands that joined together in 1932.",
+  "Austin": "Helped create the original Mini, in 1959.",
+  "Bentley": "Has won the 24 Hours of Le Mans six times.",
+  "BMW": "Started out making aircraft engines.",
+  "Brabus": "Turns Mercedes into monsters with over 800 hp.",
+  "Bugatti": "A Chiron went past 490 km/h.",
+  "Buick": "One of the oldest American brands still going.",
+  "BYD": "Started out making mobile phone batteries.",
+  "Cadillac": "The name comes from the founder of the city of Detroit.",
+  "Caterham": "Makes the Seven, a super-light car inspired by a 1950s Lotus.",
+  "Chery": "One of the Chinese brands that exports the most cars.",
+  "Chevrolet": "Made the Corvette and the Camaro.",
+  "Chrysler": "Part of Stellantis, just like Peugeot and Fiat.",
+  "Citroën": "The badge is two gear teeth in a V shape.",
+  "Cupra": "It was SEAT's sporty version before becoming a brand of its own.",
+  "Dacia": "Belongs to Renault and makes some of the cheapest cars in Europe.",
+  "Daewoo": "Its models ended up being called Chevrolet.",
+  "DAF": "Makes lorries today, but made cars with automatic gearboxes back in the 50s.",
+  "Daihatsu": "Specialist in tiny cars. Left Europe in 2013.",
+  "De Tomaso": "The Pantera had an American Ford V8 engine.",
+  "DeLorean": "The car from the film Back to the Future, with gullwing doors.",
+  "Dodge": "Made the Viper and the Challenger.",
+  "DS": "The name comes from the famous 1955 Citroën DS.",
+  "Ferrari": "The prancing horse came from the plane of a First World War pilot.",
+  "Fiat": "The name stands for Italian Automobile Factory of Turin.",
+  "Ford": "Was the first to make cars on a moving assembly line.",
+  "Genesis": "Hyundai's luxury brand.",
+  "Gordon Murray": "The T.50 has a giant fan at the back to suck the car to the ground.",
+  "Hennessey": "The Venom F5 was built to go past 480 km/h.",
+  "Hispano-Suiza": "An old luxury brand that came back with an electric hypercar.",
+  "Honda": "Started out putting engines on bicycles.",
+  "Hongqi": "The limousines of China's leaders.",
+  "Hummer": "Born from the Humvee military vehicle and came back as an electric car.",
+  "Hyundai": "Korea's biggest car brand.",
+  "Ineos": "Makes the Grenadier, inspired by the old Land Rover Defender.",
+  "Infiniti": "Nissan's luxury brand.",
+  "Isuzu": "Makes the D-Max pickup and lots of lorries.",
+  "Iveco": "Makes the Daily van and lorries.",
+  "Jaguar": "The E-Type was called the most beautiful car in the world.",
+  "Jeep": "Born as a military jeep in the Second World War.",
+  "Kia": "Started out making bicycle parts.",
+  "Koenigsegg": "The badge is the founder's family coat of arms.",
+  "Lada": "The Niva has been made almost unchanged since 1977.",
+  "Lamborghini": "Ferruccio Lamborghini made tractors before supercars.",
+  "Lancia": "The brand with the most World Rally Championship titles.",
+  "Land Rover": "They say the first model was drawn in the sand on a beach.",
+  "Leapmotor": "Has a partnership with Stellantis.",
+  "Lexus": "Toyota's luxury brand.",
+  "Ligier": "Once had a Formula 1 team. Today it makes licence-free microcars.",
+  "Lincoln": "American presidents rode in Lincolns for decades.",
+  "Lotus": "The founder's motto: simplify, then add lightness.",
+  "Lucid": "Makes some of the longest-range electric cars in the world.",
+  "Lynk & Co": "From the same group as Volvo. Started out selling cars by subscription.",
+  "Mahindra": "One of India's biggest makers of jeeps and tractors.",
+  "MAN": "Makes lorries and buses, like the Casa Pia team bus.",
+  "Maserati": "The trident comes from the statue of Neptune in Bologna.",
+  "Maybach": "Today it's Mercedes' top level of luxury.",
+  "Mazda": "The MX-5 is the best-selling roadster in history.",
+  "McLaren": "Started in Formula 1 and still races there.",
+  "Mercedes-Benz": "Karl Benz made the first car in history, in 1886.",
+  "MG": "It was British and today it's Chinese.",
+  "Mini": "The original Mini was only 3 metres long.",
+  "Mitsubishi": "The name means three diamonds.",
+  "Morgan": "Still uses wood in the frame of its cars.",
+  "NIO": "Instead of charging, its cars can swap batteries in minutes.",
+  "Nissan": "Made the GT-R, nicknamed Godzilla.",
+  "Omoda": "A new brand from the Chery group.",
+  "Opel": "Started out making sewing machines.",
+  "Pagani": "Every car is practically handmade.",
+  "Peugeot": "Before cars, it made pepper mills.",
+  "Plymouth": "An American brand that ended in 2001.",
+  "Polestar": "Started out as Volvo's performance division.",
+  "Pontiac": "Made the Firebird. Ended in 2010.",
+  "Porsche": "The 911 has been around since 1964.",
+  "Portaro": "A 4x4 made in Portugal, based on a Romanian model.",
+  "RAM": "Giant pickups that grew out of Dodge.",
+  "Renault": "Won Formula 1 championships with Fernando Alonso.",
+  "Rimac": "The Nevera is one of the fastest electric cars in the world.",
+  "Rivian": "Electric pickups and SUVs built for adventure.",
+  "Rolls-Royce": "The statuette on the bonnet is called the Spirit of Ecstasy.",
+  "Rover": "A British brand that ended in 2005.",
+  "Saab": "Also made aeroplanes. Stopped making cars in 2011.",
+  "Scania": "The lorries with the griffin on the badge.",
+  "SEAT": "Spain's car brand.",
+  "Simca": "A French brand that ended in 1978.",
+  "Škoda": "Started out making bicycles.",
+  "Smart": "The Fortwo is only 2.7 metres long.",
+  "SsangYong": "Today it's called KGM.",
+  "Subaru": "The six stars on the badge are the Pleiades star cluster.",
+  "Suzuki": "Started out making looms.",
+  "Tata": "Owns Jaguar and Land Rover.",
+  "Tesla": "The name is a tribute to the inventor Nikola Tesla.",
+  "Toyota": "Also started out making looms, just like Suzuki.",
+  "Trabant": "The body was made of a plastic mixed with cotton.",
+  "Triumph": "Made roadsters like the Spitfire and the TR6.",
+  "TVR": "British sports cars famous for being wild.",
+  "UMM": "A Portuguese 4x4, used by the Army.",
+  "Volkswagen": "The name means people's car.",
+  "Volvo": "Invented the 3-point seatbelt and let everyone use it.",
+  "Xpeng": "Is also working on flying cars.",
+  "Zeekr": "From the same group as Volvo and Polestar.",
+  "Zenvo": "A Danish hypercar with a rear wing that tilts in corners.",
+  "GWM": "In Europe the Ora 03 was called Funky Cat, and in China, Good Cat.",
+  "Geely": "It started out making fridge parts and now owns Volvo.",
+  "Jaecoo": "The name mixes the German word Jäger (hunter) with the English word cool.",
+  "Maxus": "The name comes from a British van, the LDV Maxus.",
+  "Microcar": "It was born inside a company that built sailing boats.",
+  "Vauxhall": "The name comes from the London district where the company was born.",
+  "Holden": "The lion on the badge holds a stone, because of a legend about the invention of the wheel.",
+  "Proton": "The name is an acronym for National Automobile Company in Malay.",
+  "VinFast": "Its first models used BMW platforms and engines.",
+  "Ariel": "The Atom has no roof, doors or windows: you can see the whole chassis.",
+  "Noble": "The M600 switches off traction control with a switch like the one in a fighter jet.",
+  "Spyker": "The badge combines an aircraft propeller and a spoked wheel.",
+  "SSC": "The founder is called Shelby, but he is not related to Carroll Shelby, the Cobra man.",
+  "Czinger": "Many parts are 3D-printed and the driver sits in the middle, with the passenger behind.",
+  "W Motors": "The Lykan HyperSport's headlights have diamonds in them."
+ },
+ "hist": {
+  "Abarth": "Founded in Turin by Carlo Abarth, an Austrian who loved speed. It became famous for turning small Fiats into race cars and won thousands of races in the 50s and 60s. It has belonged to Fiat since 1971 and today makes the spiciest versions of the 500.",
+  "Acura": "Created by Honda in 1986 to sell luxury cars in the USA. It was the first Japanese luxury brand. Its most famous model is the NSX, which racing driver Ayrton Senna helped with while it was being developed.",
+  "Aixam": "A French brand specialising in quadricycles, the so-called licence-free cars. In Portugal they can be driven from age 16. It's one of the best-selling brands of this type of car in Europe.",
+  "Alfa Romeo": "Born in Milan in 1910 as A.L.F.A., and the Romeo came from Nicola Romeo, who bought the company. It won the first Formula 1 World Championship, in 1950. Enzo Ferrari began his career as a driver and team manager for Alfa Romeo.",
+  "Alpina": "Started out making parts to improve BMW engines and became a small luxury and performance brand. The cars are built with BMW, but have multi-spoke wheels and special interiors. In 2022 BMW itself bought the brand.",
+  "Alpine": "Founded by Jean Rédélé in Dieppe, France. The 70s A110 won the first World Rally Championship, in 1973. After years out of action, Renault brought the brand back in 2017 with a new A110.",
+  "Aston Martin": "The name combines Lionel Martin, one of the founders, and the Aston Hill climb, where he raced. It became world-famous when the DB5 appeared in the James Bond film Goldfinger, in 1964. Today it also has a Formula 1 team.",
+  "Audi": "Audi is the Latin translation of Horch, the founder's surname, and means 'listen!'. In 1932 it joined DKW, Horch and Wanderer to form Auto Union, hence the four rings. In the 80s it revolutionised rallying with quattro all-wheel drive.",
+  "Austin": "Founded by Herbert Austin in England. The little Austin Seven, from the 1920s, got lots of British families driving. Later it joined other brands in the British Motor Corporation and helped launch the Mini, in 1959.",
+  "Bentley": "Founded by W. O. Bentley in London. In the 1920s, the drivers known as the 'Bentley Boys' won Le Mans several times in a row. It was bought by Rolls-Royce in 1931 and today belongs to the Volkswagen Group.",
+  "BMW": "BMW stands for Bavarian Motor Works. It started with aircraft engines, then motorbikes, and only made its first car in 1928. The blue and white badge has the colours of the Bavarian flag.",
+  "Brabus": "A German tuner from Bottrop, specialising in Mercedes and Smart. It takes production cars and gives them much more powerful engines and luxury interiors. Brabus G-Classes are some of the most over-the-top 4x4s in the world.",
+  "Bugatti": "Founded by the Italian Ettore Bugatti in Molsheim, a town that is now in France. The 1920s Type 35 won more than a thousand races. The brand was reborn with the Veyron, in 2005, the first production car with over 1000 hp.",
+  "Buick": "Founded by David Buick, a Scotsman living in the USA. General Motors was created from Buick, in 1908. Today it sells mainly in the USA and China.",
+  "BYD": "The name stands for 'Build Your Dreams'. It started out making batteries and moved into cars in 2003. Today it's the world's biggest maker of electric and plug-in hybrid cars.",
+  "Cadillac": "Born in Detroit from Henry Ford's old company, after he had left it. It has belonged to General Motors since 1909. The Escalade is the favourite car of lots of American rappers and sports stars.",
+  "Caterham": "In 1973 it bought the rights to the Lotus Seven, a car from 1957. Since then it has kept making the Seven, faster and faster but always light and simple. Many customers build their own car from a kit.",
+  "Chery": "A Chinese brand from Wuhu, created with the support of the local government. For many years it was the Chinese brand that exported the most cars. In Europe it sells cars under the Omoda and Jaecoo brands.",
+  "Chevrolet": "Founded by Louis Chevrolet, a Swiss racing driver, and William Durant, the creator of General Motors. The Corvette, from 1953, is the most famous American sports car. It's one of the brands that has sold the most cars in history.",
+  "Chrysler": "Founded by Walter Chrysler, who used to work at Buick. For decades it was one of Detroit's 'Big Three', with Ford and GM. Today it's part of Stellantis.",
+  "Citroën": "André Citroën was the first in Europe to mass-produce cars, like Ford did in the USA. He created very innovative cars, like the Traction Avant, the 2CV and the DS with hydraulic suspension. The badge comes from the V-shaped gears the company made before cars.",
+  "Cupra": "The name comes from 'Cup Racing', SEAT's racing versions. In 2018 it became an independent brand, based in Martorell, Spain. The Formentor was the first model made just for Cupra.",
+  "Dacia": "A Romanian brand that started out making Renaults under licence. It was bought by Renault in 1999 and launched the Logan, a simple, cheap car. Today the Sandero is one of the best-selling cars in Europe.",
+  "Daewoo": "It was part of a huge Korean group that also built ships and electronics. It went bust in the Asian financial crisis and General Motors bought the car side in 2002. From then on, its models wore the Chevrolet badge.",
+  "DAF": "A Dutch brand from Eindhoven that made small cars with a belt-driven automatic gearbox, the Variomatic. The car side went to Volvo in the 70s. Today it makes only lorries and belongs to the American company PACCAR.",
+  "Daihatsu": "Claims to be the oldest Japanese car brand still in business. It specialises in tiny cars, Japanese kei cars. It belongs to Toyota and left Europe in 2013.",
+  "De Tomaso": "Founded in Modena by the Argentinian Alejandro de Tomaso. The Pantera combined Italian style with a Ford V8 engine, and was sold at Ford dealers in the USA. The brand recently came back with the P72.",
+  "DeLorean": "Created by John DeLorean, who had been a big boss at General Motors. It made just one model, the DMC-12, with an unpainted stainless steel body. The factory, in Northern Ireland, closed in 1982, but the car became famous thanks to the film Back to the Future.",
+  "Dodge": "Founded by the brothers John and Horace Dodge, who made parts for Ford. It became famous for muscle cars, like the Charger and the Challenger. Today it's part of Stellantis.",
+  "DS": "Started as Citroën's luxury line and became a brand of its own in 2014. The name honours the Citroën DS, one of the most advanced cars of its time. It's the brand used by the presidents of France.",
+  "Ferrari": "Enzo Ferrari started out as a driver and team manager for Alfa Romeo. He created Scuderia Ferrari in 1929, and the first car with the Ferrari name came out in 1947. It's the oldest and most successful team in Formula 1.",
+  "Fiat": "Founded in Turin by a group of investors, including Giovanni Agnelli. The 1957 Fiat 500 got the whole of Italy driving. Today it's part of Stellantis.",
+  "Ford": "Henry Ford founded the brand in Detroit. The Model T, from 1908, was the first car cheap enough for lots of families. In 1966 the GT40 won Le Mans ahead of Ferrari, a story that was made into a film.",
+  "Genesis": "Started as the name of a Hyundai luxury model. In 2015 it became a brand of its own. It competes with Mercedes, BMW and Audi.",
+  "Gordon Murray": "Gordon Murray designed championship-winning Formula 1 cars and the legendary McLaren F1. At his own brand he makes light supercars with a manual gearbox and a V12 engine. The T.50 is seen as the successor to the McLaren F1.",
+  "Hennessey": "A Texas tuner that started out modifying other brands' cars. The Venom GT was based on a Lotus Exige. It then created the Venom F5, built from scratch to be one of the fastest cars in the world.",
+  "Hispano-Suiza": "A Spanish brand founded in Barcelona with the help of a Swiss engineer, hence the name. It made luxury cars and famous aircraft engines in the First World War. It came back in 2019 with the Carmen, an electric hypercar.",
+  "Honda": "Soichiro Honda started out putting engines on bicycles after the Second World War. It became the world's biggest motorbike maker. In Formula 1 it won titles with Ayrton Senna and, later, with Max Verstappen.",
+  "Hongqi": "The name means 'red flag'. It's one of China's oldest car brands and made the limousines for the country's leaders. Today it also sells electric SUVs in Europe.",
+  "Hummer": "Born from the Humvee, the American military vehicle. The first civilian Hummers came out in 1992 and General Motors bought the brand, which closed in 2010. It came back as the Hummer EV, an electric giant sold by GMC.",
+  "Hyundai": "Founded by businessman Chung Ju-yung, who also created giant shipyards and construction companies. The Pony, from 1975, was the first car mass-produced in Korea. Today it's one of the biggest brands in the world, together with Kia, which belongs to the same group.",
+  "Ineos": "Created by British billionaire Jim Ratcliffe, owner of a large chemicals company. When the old Land Rover Defender ended, he decided to make a similar 4x4: the Grenadier. The name comes from a London pub where the idea came up.",
+  "Infiniti": "Nissan's luxury brand, created for the USA in 1989. It sponsored Red Bull in Formula 1 when Sebastian Vettel was champion. It left Europe in 2020.",
+  "Isuzu": "One of Japan's oldest brands, specialising in diesel engines. It makes very tough lorries and pickups. In Portugal it's known for the D-Max pickup.",
+  "Iveco": "Born in 1975 from the merger of several European lorry brands, with Fiat. The name stands for Industrial Vehicles Corporation. The Daily van is one of the most used in Portugal.",
+  "Jaguar": "Started out making sidecars for motorbikes, under the name Swallow. The Jaguar C-Type and D-Type won Le Mans in the 1950s. It has belonged to India's Tata since 2008.",
+  "Jeep": "Born from the Willys MB, the American military jeep of the Second World War. The Portuguese word 'jipe' comes from it. Today it's part of Stellantis.",
+  "Kia": "Korea's oldest car brand. It started out making bicycle parts and then motorbikes. It has belonged to the Hyundai group since 1998.",
+  "Koenigsegg": "Christian von Koenigsegg founded the brand when he was just 22, to build the perfect car. The factory is on a former Swedish Air Force base. Several Koenigseggs have set speed records.",
+  "Lada": "The brand of the AvtoVAZ factory, in Togliatti, Russia. The first models were based on the Fiat 124. The Niva was one of the world's first SUVs with a monocoque body.",
+  "Lamborghini": "Ferruccio Lamborghini got rich making tractors. The story goes that, after an argument with Enzo Ferrari, he decided to make better cars than his. The Miura and the Countach invented the supercar look. Today it belongs to the Volkswagen Group.",
+  "Lancia": "Founded by Vincenzo Lancia, who was a Fiat racing driver. In rallying it was unbeatable with the Stratos, the 037 and the Delta Integrale. Today it's part of Stellantis and is being reborn with the new Ypsilon.",
+  "Land Rover": "Created after the Second World War to make a farm vehicle similar to the Jeep. The first ones were made of aluminium because steel was scarce. The Range Rover, from 1970, was one of the first luxury SUVs.",
+  "Leapmotor": "A Chinese startup from Hangzhou that makes affordable electric cars. In 2023 Stellantis bought a stake in the company. That's why, in Europe, Leapmotors are sold through the Stellantis group.",
+  "Lexus": "Created by Toyota in 1989 to sell luxury cars in the USA. In a famous advert, the first LS was so smooth that a pyramid of glasses stayed balanced on the bonnet with the engine running. The LFA is one of the best-sounding supercars ever.",
+  "Ligier": "Guy Ligier was a rugby player, racing driver and owner of a Formula 1 team. The team won several races in the 70s and 80s. Today the brand makes licence-free microcars.",
+  "Lincoln": "Founded by Henry Leland, the same man who had created Cadillac. It was bought by Ford in 1922. For decades it made the cars of American presidents.",
+  "Lotus": "Colin Chapman founded Lotus and revolutionised Formula 1 with light cars full of new ideas. The Lotus team won 7 constructors' championships. Today it belongs to the Chinese Geely group.",
+  "Lucid": "Founded in the USA, with engineers who came from Tesla. The Lucid Air can do more than 800 km on a single charge. A large part of the company belongs to a Saudi Arabian fund.",
+  "Lynk & Co": "A brand from the Geely group, the same as Volvo, created in 2016. In Europe it started with a monthly subscription system, like a mobile phone contract. The cars share a lot of technology with Volvo.",
+  "Mahindra": "A big Indian group that started out assembling Willys jeeps. It's the world's biggest tractor maker. It also has a team in Formula E.",
+  "MAN": "One of Germany's oldest industrial companies. It was there that Rudolf Diesel built the first working diesel engine. Today it makes lorries and buses and belongs to the Volkswagen Group.",
+  "Maserati": "Founded in Bologna by the Maserati brothers, who made race cars. Juan Manuel Fangio became Formula 1 world champion in a Maserati, in 1957. Today it's part of Stellantis.",
+  "Maybach": "Wilhelm Maybach was the great engineer behind the first Mercedes. His son, Karl, made luxury cars and engines for Zeppelin airships. Today Maybach is the most luxurious level of Mercedes-Benz.",
+  "Mazda": "Started out making cork and then three-wheeled trucks. It's famous for the rotary engine, used in the RX-7 and RX-8. In 1991 it was the first Japanese brand to win the 24 Hours of Le Mans.",
+  "McLaren": "Bruce McLaren, a driver from New Zealand, founded the racing team. McLaren is one of the most successful teams in Formula 1, with drivers like Senna, Prost and Hamilton. The 1992 McLaren F1 was the fastest car in the world for years.",
+  "Mercedes-Benz": "Karl Benz made the first car in 1886 and Gottlieb Daimler made another at almost the same time. The two companies merged in 1926. The name Mercedes comes from the daughter of Emil Jellinek, an important customer.",
+  "MG": "MG stands for Morris Garages, an Oxford workshop that made sporty versions of Morris cars. It became famous for British roadsters like the MGB. Today it belongs to China's SAIC and is one of the fastest-growing brands in Europe.",
+  "Mini": "The original Mini was designed by Alec Issigonis to use very little fuel. It won the Monte Carlo Rally three times in the 60s. The brand has belonged to BMW since 2001.",
+  "Mitsubishi": "Part of a big Japanese group that also builds ships and aircraft. It won the Dakar Rally 12 times with the Pajero and the World Rally Championship with the Lancer Evolution. It's part of an alliance with Renault and Nissan.",
+  "Morgan": "A family-run English brand that still makes its cars almost by hand. It started with three-wheelers. It still uses ash wood in the frame today.",
+  "NIO": "A Chinese startup from Shanghai, created in 2014. It has stations where a robot swaps the car's battery in a few minutes. The EP9 set records at the Nürburgring.",
+  "Nissan": "The name comes from Nippon Sangyo. For years it sold cars under the Datsun name. The GT-R won so many races in Japan that it was nicknamed Godzilla.",
+  "Omoda": "A brand created by Chery in 2022 to sell cars outside China, mainly in Europe. Its models have a futuristic style. It's already on sale in Portugal.",
+  "Opel": "Adam Opel started out making sewing machines and then bicycles. For many years it belonged to America's General Motors. Since 2017 it has been in the same group as Peugeot, now called Stellantis.",
+  "Pagani": "Horacio Pagani, an Argentinian, worked at Lamborghini before creating his own brand. It makes carbon fibre hypercars almost by hand. Every car has hundreds of titanium bolts engraved with the logo.",
+  "Peugeot": "The Peugeot family made tools, coffee and pepper mills, and bicycles. It's considered the oldest car brand in the world still in business. It has won the Dakar and the 24 Hours of Le Mans several times.",
+  "Plymouth": "It was the cheapest brand in the Chrysler group. It made some of the most famous muscle cars, like the Road Runner and the Hemi Cuda. It ended in 2001.",
+  "Polestar": "Started out as a racing team that tuned Volvos. Volvo bought it and turned it into a brand of sporty electric cars. It belongs to the Geely group.",
+  "Pontiac": "A General Motors brand with a sporty reputation. The 1964 GTO is considered the first muscle car. The car from Knight Rider, KITT, was a Pontiac Firebird Trans Am.",
+  "Porsche": "Ferdinand Porsche designed the Volkswagen Beetle before creating his own brand. The first Porsche, the 356, came out in 1948. Porsche is the brand with the most wins at the 24 Hours of Le Mans.",
+  "Portaro": "A 4x4 built in Portugal based on the Romanian ARO, with diesel engines. The name combines Portugal and ARO. It was made from the 70s to the early 90s.",
+  "RAM": "It was the name of Dodge's pickups and became a brand of its own in 2010. The RAM 1500 is one of the best-selling pickups in the USA. In Portugal they're rare because they're enormous.",
+  "Renault": "Founded by the brothers Louis, Marcel and Fernand Renault. In Formula 1 it won titles with Williams and with Fernando Alonso. In Portugal, the Clio was the best-selling car for many years.",
+  "Rimac": "Mate Rimac started making electric cars in a garage in Croatia. The Nevera has almost 2000 hp. The company took control of Bugatti, in partnership with Porsche.",
+  "Rivian": "An American startup making electric vehicles built for adventure. Amazon invested in the company and uses Rivian electric vans for deliveries. The R1T was the first electric pickup to hit the road.",
+  "Rolls-Royce": "Charles Rolls and Henry Royce teamed up in 1906. The brand became known for making 'the best car in the world'. Since 2003 the cars have been made by BMW, in Goodwood, England.",
+  "Rover": "Started out making bicycles in Coventry, England. It was Rover that created the first Land Rover, which later became a brand of its own. It ended in 2005.",
+  "Saab": "A Swedish fighter-plane maker that started making cars after the Second World War. It was a pioneer in putting turbo engines in ordinary cars. It closed in 2011.",
+  "Scania": "A Swedish lorry and bus brand from Södertälje. Scania lorries with V8 engines are famous among truckers. It belongs to the Volkswagen Group.",
+  "SEAT": "Created by the Spanish government to make Fiat cars under licence, like the SEAT 600. It has belonged to the Volkswagen Group since 1986. The main factory is in Martorell, near Barcelona.",
+  "Simca": "Started out making Fiat cars in France. In the 60s it was one of the biggest French brands. It ended up absorbed by Chrysler and then by Peugeot.",
+  "Škoda": "Founded by Václav Laurin and Václav Klement, who made bicycles and motorbikes. It's one of the oldest car brands in the world. It was bought by Volkswagen in 1991.",
+  "Smart": "Born from an idea by Mercedes with Swatch, the watch brand. The name combines Swatch, Mercedes and Art. Today it's a partnership between Mercedes and China's Geely.",
+  "SsangYong": "A Korean brand specialising in 4x4s and SUVs. For a few years it made cars with Mercedes engines. In 2023 it changed its name to KGM.",
+  "Subaru": "A brand from the group that also makes aircraft and helicopters in Japan. The blue and yellow Impreza won the World Rally Championship with Colin McRae. Almost every Subaru has a boxer engine and all-wheel drive.",
+  "Suzuki": "Michio Suzuki made looms for weaving fabric. He then moved on to motorbikes and small cars. The Jimny is one of the most capable small 4x4s in the world.",
+  "Tata": "A huge Indian group that makes everything from steel to tea. The Tata Nano was launched as the cheapest car in the world. In 2008 it bought Jaguar and Land Rover.",
+  "Tesla": "Founded in 2003 by American engineers, with Elon Musk as the big investor and later the boss. The first model was a Roadster based on the Lotus Elise. It helped make electric cars popular all over the world.",
+  "Toyota": "Started out making automatic looms, invented by Sakichi Toyoda. It's the biggest car maker in the world. The Corolla is the best-selling car in history.",
+  "Trabant": "It was made in the old East Germany, in communist times. People waited more than 10 years to get one. It had a very noisy two-stroke engine.",
+  "Triumph": "Started out making bicycles and motorbikes in Coventry, England. It became famous for cheap sporty roadsters. The car brand ended in 1984.",
+  "TVR": "Founded by Trevor Wilkinson in Blackpool, England; the name comes from TreVoR. It made light sports cars with huge engines and no electronic aids. It's trying to come back with a new Griffith.",
+  "UMM": "UMM stands for União Metalo-Mecânica, a Portuguese company. It made tough 4x4s based on a French model, used by the Army and by lots of companies. They were also sold to other countries.",
+  "Volkswagen": "Created in Germany to make a cheap car for everyone, the Beetle, which sold more than 21 million. Today the Volkswagen Group owns Audi, Porsche, Lamborghini, Bentley, SEAT, Cupra and Škoda. In Portugal, the Palmela factory makes the T-Roc.",
+  "Volvo": "Volvo means 'I roll' in Latin. It became famous for safety, and it was a Volvo engineer who invented the 3-point seatbelt. Today it belongs to China's Geely.",
+  "Xpeng": "A Chinese startup from Guangzhou, specialising in technology and self-driving. It has a sister company developing flying cars. Volkswagen has invested in the brand.",
+  "Zeekr": "A luxury electric car brand from the Geely group, created in 2021. It uses the same technical base as some Volvos and Polestars. It's already on sale in several European countries.",
+  "Zenvo": "A small Danish brand that makes very few cars a year. The TSR-S's rear wing tilts sideways in corners. The Aurora has a quad-turbo V12 engine.",
+  "GWM": "Great Wall Motor was born in Baoding, China, and by 1984 it was already making small trucks and off-roaders. It became famous for pickups, like the 1996 Deer, and grew into China's biggest pickup maker. Today it brings together several brands: Haval (SUVs), Wey (premium), ORA (electric) and Tank (off-road).",
+  "Geely": "It was founded in 1986 by Li Shufu, who started out making fridge parts. Its first car, the Haoqing, left the factory in 1998, and in 2010 Geely bought Volvo. Today the group includes brands such as Lotus, Polestar, Zeekr and Lynk & Co, and it arrived in Portugal in 2026.",
+  "Jaecoo": "It is a brand from the Chinese Chery group, launched in 2023 and designed mainly for export. It is Omoda's sister brand and specialises in adventurous-looking SUVs. Its first model was the Jaecoo 7, which also comes as a plug-in hybrid.",
+  "Maxus": "In 2010 China's SAIC bought the rights to the British company LDV, which made work vans. Maxus was born in 2011 and builds vans, pickups and people carriers. It is one of the brands pushing hardest into electric work vans, like the eDeliver range.",
+  "Microcar": "It was created in 1980 as a division of Jeanneau, a French sailing boat maker. It specialised in quadricycles, the licence-free cars that in Portugal can be driven from age 16. Since 2008 it has belonged to Ligier, another French maker of licence-free cars.",
+  "Vauxhall": "It was born in London in 1857 making pumps and marine engines, and built its first car in 1903. In 1925 it was bought by General Motors, which also owned Opel. Since 1980 Vauxhalls have been almost identical to Opels, but with right-hand drive and a griffin on the badge.",
+  "Holden": "It started in 1856 in Adelaide, Australia, making horse saddles, and became part of General Motors in 1931. In 1948 it launched the 48-215, the first car to carry the Holden name, and later created icons like the Monaro and the Commodore. It won the Bathurst race more times than any other brand, but closed its factory in 2017 and the brand ended in 2021.",
+  "Proton": "It was created in Malaysia in 1983, the idea of Prime Minister Mahathir Mohamad, so the country would have its own car. The first model, the Saga, appeared in 1985 and was based on a Mitsubishi. It owned Lotus from 1996 to 2017, and today China's Geely owns almost half the company.",
+  "VinFast": "It was founded in 2017 by the Vingroup group, with a factory in Hai Phong, Vietnam. It showed its first cars at the 2018 Paris Motor Show, based on BMW models. In 2022 it stopped making combustion cars and switched to electric only, like the small VF 3.",
+  "Ariel": "It was founded in 1991 by Simon Saunders in Crewkerne, UK, and revived the name of an old British brand. The Atom began as a Coventry University project, created by Saunders and a student, and went into production in 2000. It is a small company of about 30 people that also makes the Nomad, an off-roader with no bodywork.",
+  "Noble": "It was founded in 1999 by Briton Lee Noble in Leeds and is now based in Leicester, UK. It became famous for the M12, a light sports car with a twin-turbo V6. The M600, on sale since 2010, has a twin-turbo V8 with about 650 horsepower and almost no electronic driving aids.",
+  "Spyker": "The name comes from a Dutch brand founded in 1880 by the Spijker brothers, which built the royal family's Golden Coach and later cars and aeroplanes. Today's Spyker was born in 1999 and became known for the C8 supercar. It once had a Formula 1 team in 2007 and bought Saab in 2010, but went through several bankruptcies.",
+  "SSC": "It was founded in 1998 by Jerod Shelby in Washington State, USA, under the name Shelby SuperCars. In 2007 Guinness confirmed the Ultimate Aero as the world's fastest production car, at about 412 km/h. In 2021 the Tuatara averaged 455 km/h on the old Space Shuttle runway at the Kennedy Space Center.",
+  "Czinger": "It was founded in 2019 in Los Angeles, USA, by Kevin Czinger and his son Lukas. The 21C was unveiled in 2020 and uses many computer-designed, 3D-printed parts. Only 80 will be built, and it has already set records at tracks like Laguna Seca.",
+  "W Motors": "It was founded in 2012 in Beirut, Lebanon, by Ralph Debbas, and soon moved to Dubai. Its first model, the Lykan HyperSport, is billed as the first Arab hypercar, and only 7 were made. It appeared in the film Furious 7, and the Abu Dhabi police bought one too."
+ },
+ "specs": {
+  "Renault|Mégane CC|": {
+   "geracao": "3rd generation (dCi 110)",
+   "anos": "2010–2016",
+   "motor": "1.5 dCi diesel",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The panoramic glass roof folds itself into the boot in about 20 seconds."
+  },
+  "Porsche|Panamera|": {
+   "geracao": "970 (Panamera 4S)",
+   "anos": "2009–2016",
+   "motor": "4.8 naturally aspirated V8",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "It was Porsche's first four-door saloon, and the idea came from a stretched 911."
+  },
+  "Mercedes-Benz|Classe A|A 45": {
+   "geracao": "Mercedes-AMG A 45 S 4MATIC+ (V177/W177)",
+   "anos": "2019–2025",
+   "motor": "2.0 turbo 4-cylinder",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "It has the most powerful production four-cylinder engine in the world, hand-built by a single mechanic in Affalterbach."
+  },
+  "Alfa Romeo|Spider|": {
+   "geracao": "Series 3 (2.0)",
+   "anos": "1983–1990",
+   "motor": "2.0 4-cylinder, twin cam",
+   "valor_nota": "classic in Europe, depending on condition",
+   "curiosidade": "The Spider family was made for almost 30 years and became famous in the 1967 film “The Graduate”."
+  },
+  "Porsche|Cayman|": {
+   "geracao": "987 (Cayman 2.7)",
+   "anos": "2005–2012",
+   "motor": "2.7 flat-6 (mid-engined)",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "The name comes from the caiman, a cousin of the alligator, and the engine sits behind the seats, like in a race car."
+  },
+  "Ford|Taunus|": {
+   "geracao": "17M P3 (1.5)",
+   "anos": "1960–1964",
+   "motor": "1.5 4-cylinder petrol",
+   "unidades": "≈ 670 000",
+   "valor_nota": "classic in Europe, depending on condition",
+   "curiosidade": "In Germany they called it “Badewanne” (bathtub) because of its rounded body shape."
+  },
+  "Ferrari|Testarossa / 512 TR|512 TR": {
+   "geracao": "512 TR",
+   "anos": "1991–1994",
+   "motor": "4.9 V12 boxer (flat-12)",
+   "unidades": "≈ 2 260",
+   "valor_nota": "classic, auctions and recent sales in Europe/USA",
+   "curiosidade": "The famous side “gills” feed air to the radiators, which are at the sides and not at the front."
+  },
+  "Porsche|911|GT3": {
+   "geracao": "991.1 GT3",
+   "anos": "2013–2016",
+   "motor": "3.8 naturally aspirated flat-6",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "The engine revs to 9 000 rpm and it was the first GT3 with rear-wheel steering."
+  },
+  "Dodge|Challenger|": {
+   "geracao": "3rd generation (R/T 5.7 HEMI)",
+   "anos": "2008–2023",
+   "motor": "5.7 naturally aspirated HEMI V8",
+   "valor_nota": "used imports in Portugal/Europe",
+   "curiosidade": "The design was directly inspired by the original 1970 Challenger."
+  },
+  "Maybach|Classe S|": {
+   "geracao": "Mercedes-Maybach S 580 (Z223)",
+   "anos": "2021–present",
+   "motor": "4.0 twin-turbo V8, mild hybrid",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "The wheelbase is 18 cm longer than a long-wheelbase S-Class, so the rear passengers can stretch their legs."
+  },
+  "Mercedes-Benz|AMG GT|": {
+   "geracao": "C190 (AMG GT S)",
+   "anos": "2014–2021",
+   "motor": "4.0 twin-turbo V8",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "The turbos sit inside the engine's “V”, a layout called “hot inside V”."
+  },
+  "Rolls-Royce|Phantom|Coupé": {
+   "geracao": "Phantom Coupé",
+   "anos": "2008–2016",
+   "motor": "6.75 naturally aspirated V12",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "It can have the “Starlight” headliner, with hundreds of fibre optics that look like a starry sky."
+  },
+  "Renault|Clio|RS": {
+   "geracao": "Clio III RS 2.0 16V (197 hp)",
+   "anos": "2006–2012",
+   "motor": "2.0 16V naturally aspirated 4-cylinder",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The rear diffuser was inspired by Renault's Formula 1 cars."
+  },
+  "Porsche|911|Turbo": {
+   "geracao": "996 Turbo",
+   "anos": "2000–2005",
+   "motor": "3.6 twin-turbo flat-6",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "The engine is derived from the GT1 that won the 24 Hours of Le Mans in 1998."
+  },
+  "Lamborghini|Aventador|": {
+   "geracao": "LP 700-4",
+   "anos": "2011–2016",
+   "motor": "6.5 naturally aspirated V12",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "“LP” stands for “Longitudinale Posteriore”: the V12 is mounted lengthways, behind the driver."
+  },
+  "Ferrari|California|": {
+   "geracao": "California",
+   "anos": "2008–2014",
+   "motor": "4.3 naturally aspirated V8",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "It was the first Ferrari with a front-mounted V8 and the first with a retractable hard top."
+  },
+  "Porsche|Taycan|GTS": {
+   "geracao": "Taycan GTS (J1, pre-facelift)",
+   "anos": "2021–2024",
+   "motor": "Electric, 2 motors",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "The GTS Sport Turismo version was Porsche's first GTS estate."
+  },
+  "MG|Cyberster|": {
+   "geracao": "Cyberster GT Dual Motor",
+   "anos": "2024–present",
+   "motor": "Electric, 2 motors",
+   "valor_nota": "used/nearly new in Europe",
+   "curiosidade": "The doors open upwards like scissors, like on a Lamborghini."
+  },
+  "Ferrari|296|GTS": {
+   "geracao": "296 GTS",
+   "anos": "2022–present",
+   "motor": "3.0 twin-turbo V6 + electric (plug-in hybrid)",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "It can drive about 25 km in electric-only mode, in total silence."
+  },
+  "Porsche|911|": {
+   "geracao": "992.1 Carrera",
+   "anos": "2019–2024",
+   "motor": "3.0 twin-turbo flat-6",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "It has a “Wet” mode that detects wet roads using sensors in the wheel arches."
+  },
+  "Lamborghini|Huracán|STO": {
+   "geracao": "Huracán STO",
+   "anos": "2021–2023",
+   "motor": "5.2 naturally aspirated V10",
+   "valor_nota": "used in Europe/USA, depending on year and mileage",
+   "curiosidade": "STO stands for “Super Trofeo Omologata”: it's a race car homologated for the road."
+  },
+  "Porsche|Macan|Electric": {
+   "geracao": "Macan 4 Electric",
+   "anos": "2024–present",
+   "motor": "Electric, 2 motors",
+   "valor_nota": "used/nearly new in Europe",
+   "curiosidade": "It's the first Porsche built on the PPE electric platform, shared with Audi."
+  },
+  "Lamborghini|Huracán|EVO": {
+   "geracao": "Huracán EVO (AWD)",
+   "anos": "2019–2023",
+   "motor": "5.2 naturally aspirated V10",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "A computer called LDVI predicts how the driver is going to drive and adjusts the traction before the corner."
+  },
+  "Citroën|C4 Cactus|": {
+   "geracao": "C4 Cactus (1.2 PureTech 110)",
+   "anos": "2014–2020",
+   "motor": "1.2 PureTech turbo 3-cylinder",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The “Airbumps” on the doors are air-filled pads that protect against car park knocks."
+  },
+  "Fiat|500|Elétrico": {
+   "geracao": "500e (42 kWh, 118 hp)",
+   "anos": "2020–present",
+   "motor": "Electric, 1 motor",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "At low speed, it warns pedestrians with a tune from Fellini's film “Amarcord”."
+  },
+  "Ferrari|488|Pista": {
+   "geracao": "488 Pista",
+   "anos": "2018–2020",
+   "motor": "3.9 twin-turbo V8",
+   "valor_nota": "listings in Europe, depending on mileage",
+   "curiosidade": "“Pista” is the name of Ferrari's Fiorano test track, and it was the brand's most powerful V8 up to that point."
+  },
+  "Tesla|Model 3|": {
+   "geracao": "Model 3 RWD (Highland)",
+   "anos": "2023–present",
+   "motor": "Electric, 1 motor",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "It has hardly any buttons: almost everything is controlled on the 15.4-inch central screen."
+  },
+  "Mitsubishi|Colt|": {
+   "geracao": "Colt Z30 facelift (1.1)",
+   "anos": "2008–2012",
+   "motor": "1.1 3-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "It was developed together with the Smart Forfour, which shared the same platform."
+  },
+  "Ford|Fiesta|": {
+   "geracao": "Mk6 (1.25, 70 hp)",
+   "anos": "2002–2008",
+   "motor": "1.25 16V 4-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The Fiesta is one of the best-selling cars ever in Europe, with more than 20 million units across all generations."
+  },
+  "BMW|Série 3|": {
+   "geracao": "F30 (320d, 184 hp)",
+   "anos": "2012–2019",
+   "motor": "2.0 turbodiesel 4-cylinder",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "It was one of the most popular company cars in Portugal, because it used little fuel for its power."
+  },
+  "Lamborghini|Gallardo|Spyder": {
+   "geracao": "Gallardo LP 560-4 Spyder",
+   "anos": "2009–2013",
+   "motor": "5.2 naturally aspirated V10",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "The Gallardo was the best-selling Lamborghini in history until the Huracán overtook it."
+  },
+  "Porsche|Cayman|GT4 RS": {
+   "geracao": "718 Cayman GT4 RS",
+   "anos": "2021–2025",
+   "motor": "4.0 naturally aspirated flat-6",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "The engine air intakes are where the rear side windows would be, right next to the driver's ears."
+  },
+  "Chevrolet|Camaro|": {
+   "geracao": "6th generation (SS 6.2 V8)",
+   "anos": "2016–2024",
+   "motor": "6.2 naturally aspirated V8",
+   "valor_nota": "used imports in Portugal/Europe",
+   "curiosidade": "It became famous as “Bumblebee” in the Transformers films."
+  },
+  "Mercedes-Benz|AMG GT|GT R": {
+   "geracao": "C190 AMG GT R",
+   "anos": "2016–2021",
+   "motor": "4.0 twin-turbo V8",
+   "valor_nota": "used in Europe, depending on year and mileage",
+   "curiosidade": "It was nicknamed the “Beast of the Green Hell”, after the Nürburgring circuit."
+  },
+  "Ferrari|F40|": {
+   "geracao": "F40 (1987)",
+   "anos": "1987–1992",
+   "motor": "2.9 twin-turbo V8",
+   "unidades": "≈ 1 315",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It was the last Ferrari personally approved by Enzo Ferrari and the first production car to go past 320 km/h."
+  },
+  "Ferrari|F50|": {
+   "geracao": "F50 (1995)",
+   "anos": "1995–1997",
+   "motor": "4.7 naturally aspirated V12",
+   "unidades": "349",
+   "valor_nota": "2025–2026 auctions set records",
+   "curiosidade": "The V12 engine comes straight from the 1990 Formula 1 car and is bolted to the chassis, like in a race car."
+  },
+  "Ferrari|Enzo|": {
+   "geracao": "Enzo (2002)",
+   "anos": "2002–2004",
+   "motor": "6.0 naturally aspirated V12",
+   "unidades": "400",
+   "valor_nota": "2026 auctions between $9M and $10.7M",
+   "curiosidade": "The 400th and final Enzo was given to Pope John Paul II and then auctioned for charity."
+  },
+  "Ferrari|LaFerrari|": {
+   "geracao": "LaFerrari (coupé, 2013)",
+   "anos": "2013–2016",
+   "motor": "6.3 naturally aspirated V12 + electric motor (HY-KERS)",
+   "unidades": "499",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It was the first hybrid Ferrari road car, and the electric motor fills in the V12's torque 'gaps'."
+  },
+  "Ferrari|SF90|Stradale": {
+   "geracao": "SF90 Stradale (2019)",
+   "anos": "2019–2025",
+   "motor": "4.0 twin-turbo V8 + 3 electric motors (plug-in hybrid)",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It was the first production Ferrari with 1000 hp and can drive a few kilometres in electric-only mode, silently."
+  },
+  "Ferrari|812|Superfast": {
+   "geracao": "812 Superfast (2017)",
+   "anos": "2017–2022",
+   "motor": "6.5 naturally aspirated V12",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The name comes from its 800 hp and 12 cylinders, and when it came out it was the most powerful production Ferrari ever."
+  },
+  "Ferrari|Roma|": {
+   "geracao": "Roma (2020)",
+   "anos": "2020–2025",
+   "motor": "3.9 twin-turbo V8",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The name honours the city of Rome and the style is inspired by the 'dolce vita' of the 50s and 60s."
+  },
+  "Ferrari|Purosangue|": {
+   "geracao": "Purosangue (2022)",
+   "anos": "2022–present",
+   "motor": "6.5 naturally aspirated V12",
+   "valor_nota": "used ones sell above the new price",
+   "curiosidade": "It's the first four-door Ferrari, and the rear doors are rear-hinged, like on a Rolls-Royce."
+  },
+  "Ferrari|458|Italia": {
+   "geracao": "458 Italia (2009)",
+   "anos": "2009–2015",
+   "motor": "4.5 naturally aspirated V8",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The V8 revs to 9000 rpm and the steering wheel has almost all the controls, including the indicators, like in F1."
+  },
+  "Ferrari|F8 Tributo|": {
+   "geracao": "F8 Tributo (2019)",
+   "anos": "2019–2023",
+   "motor": "3.9 twin-turbo V8",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The name is a tribute to its V8 engine, which won the International Engine of the Year award several times."
+  },
+  "Ferrari|250 GTO|": {
+   "geracao": "250 GTO (1962)",
+   "anos": "1962–1964",
+   "motor": "3.0 naturally aspirated V12",
+   "unidades": "36",
+   "valor_nota": "record auction of $51.7M (2023); private sales up to $70M",
+   "curiosidade": "It's considered the most valuable Ferrari ever: one sold at auction for 51.7 million dollars in 2023."
+  },
+  "Ferrari|Dino 246|": {
+   "geracao": "Dino 246 GT (1969)",
+   "anos": "1969–1974",
+   "motor": "2.4 naturally aspirated V6",
+   "unidades": "≈ 3 760",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It's named after Dino, Enzo Ferrari's son, and at first it didn't even wear the Ferrari badge."
+  },
+  "Ferrari|Testarossa / 512 TR|": {
+   "geracao": "Testarossa (1984)",
+   "anos": "1984–1991",
+   "motor": "4.9 naturally aspirated flat-12",
+   "unidades": "7 177",
+   "valor_nota": "classic market prices",
+   "curiosidade": "The huge 'cheese grater' side strakes feed air to the radiators, which sit beside the engine and not at the front."
+  },
+  "Lamborghini|Countach|": {
+   "geracao": "Countach LP 400 'Periscopio' (1974)",
+   "anos": "1974–1978",
+   "motor": "3.9 naturally aspirated V12",
+   "unidades": "≈ 150",
+   "valor_nota": "2025–2026 auctions (RM Sotheby's)",
+   "curiosidade": "The name comes from a Piedmontese expression of amazement, something like 'wow!'."
+  },
+  "Lamborghini|Miura|": {
+   "geracao": "Miura P400 SV (1971)",
+   "anos": "1971–1973",
+   "motor": "3.9 naturally aspirated V12 (transverse)",
+   "unidades": "150",
+   "valor_nota": "2025–2026 auctions between $4.5M and $6.6M",
+   "curiosidade": "It's considered the first mid-engined supercar and is named after a famous breed of fighting bulls."
+  },
+  "Lamborghini|Diablo|": {
+   "geracao": "Diablo (1990)",
+   "anos": "1990–2001",
+   "motor": "5.7 naturally aspirated V12",
+   "unidades": "2 884",
+   "valor_nota": "classic market prices",
+   "curiosidade": "When it was launched, it was the fastest production car in the world, and the name is that of a famous 19th-century bull."
+  },
+  "Lamborghini|Murciélago|": {
+   "geracao": "Murciélago (2001)",
+   "anos": "2001–2010",
+   "motor": "6.2 naturally aspirated V12",
+   "unidades": "4 099",
+   "valor_nota": "market prices (manuals are worth more)",
+   "curiosidade": "It has side air intakes that open by themselves when the engine needs more cooling."
+  },
+  "Lamborghini|Revuelto|": {
+   "geracao": "Revuelto (2023)",
+   "anos": "2023–present",
+   "motor": "6.5 naturally aspirated V12 + 3 electric motors (plug-in hybrid)",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It was the first hybrid V12 Lamborghini and can drive on its electric motors alone."
+  },
+  "Lamborghini|Urus|": {
+   "geracao": "Urus SE (2024)",
+   "anos": "2024–present",
+   "motor": "4.0 twin-turbo V8 + electric motor (plug-in hybrid)",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The Urus became the best-selling Lamborghini ever; the name comes from a wild ox that was the ancestor of bulls."
+  },
+  "Lamborghini|Temerario|": {
+   "geracao": "Temerario (2024)",
+   "anos": "2024–present",
+   "motor": "4.0 twin-turbo V8 + 3 electric motors (plug-in hybrid)",
+   "valor_nota": "new price and first used ones",
+   "curiosidade": "The V8 engine revs to 10 000 rpm, which is rare for a road car."
+  },
+  "Lamborghini|Aventador|SVJ": {
+   "geracao": "Aventador SVJ (2018)",
+   "anos": "2018–2022",
+   "motor": "6.5 naturally aspirated V12",
+   "unidades": "900",
+   "valor_nota": "market prices and auctions",
+   "curiosidade": "It set the production car record at the Nürburgring in 2018 with 6:44.97, thanks to ALA active aerodynamics."
+  },
+  "Bugatti|Veyron|": {
+   "geracao": "Veyron 16.4 (2005)",
+   "anos": "2005–2015",
+   "motor": "8.0 quad-turbo W16",
+   "unidades": "450",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It was the first production car with over 1000 hp, and at more than 400 km/h it emptied its tank in about 12 minutes."
+  },
+  "Bugatti|Chiron|": {
+   "geracao": "Chiron (2016)",
+   "anos": "2016–2024",
+   "motor": "8.0 quad-turbo W16",
+   "unidades": "500",
+   "valor_nota": "recent auction results",
+   "curiosidade": "A Super Sport 300+ version was the first car to go past 300 miles per hour (490 km/h)."
+  },
+  "Bugatti|Tourbillon|": {
+   "geracao": "Tourbillon (2024)",
+   "anos": "2026–present",
+   "motor": "8.3 naturally aspirated V16 + 3 electric motors (plug-in hybrid)",
+   "unidades": "250",
+   "valor_nota": "base price of about $4M, deliveries starting",
+   "curiosidade": "The instrument cluster is made like a Swiss watch, with more than 600 parts in titanium, sapphires and rubies."
+  },
+  "Pagani|Zonda|": {
+   "geracao": "Zonda F (2005)",
+   "anos": "2005–2006",
+   "motor": "7.3 naturally aspirated V12 (Mercedes-AMG)",
+   "unidades": "25",
+   "valor_nota": "auction estimates; sales are very rare",
+   "curiosidade": "The 'F' is a tribute to Juan Manuel Fangio, the five-time F1 champion who helped Horacio Pagani at the start."
+  },
+  "Pagani|Huayra|": {
+   "geracao": "Huayra (coupé, 2011)",
+   "anos": "2011–2018",
+   "motor": "6.0 twin-turbo V12 (Mercedes-AMG)",
+   "unidades": "100",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It has four aero flaps that move by themselves, and the name comes from an Andean wind god."
+  },
+  "Koenigsegg|Agera|": {
+   "geracao": "Agera RS (2015)",
+   "anos": "2015–2018",
+   "motor": "5.0 twin-turbo V8",
+   "unidades": "25",
+   "valor_nota": "few public sales; market estimate",
+   "curiosidade": "In 2017 it averaged 447 km/h on a closed road in Nevada, the production car record at the time."
+  },
+  "Koenigsegg|Jesko|": {
+   "geracao": "Jesko (2022)",
+   "anos": "2022–present",
+   "motor": "5.0 twin-turbo V8",
+   "unidades": "125",
+   "valor_nota": "used resale prices",
+   "curiosidade": "It's named after Christian von Koenigsegg's father and has a 9-speed gearbox that can jump straight to any gear."
+  },
+  "Koenigsegg|Regera|": {
+   "geracao": "Regera (2016)",
+   "anos": "2016–2022",
+   "motor": "5.0 twin-turbo V8 + 3 electric motors (hybrid)",
+   "unidades": "≈ 85",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It doesn't have a normal gearbox: it uses a single ratio, the 'Direct Drive' invented by Koenigsegg."
+  },
+  "McLaren|F1|": {
+   "geracao": "F1 (1992)",
+   "anos": "1992–1998",
+   "motor": "6.1 naturally aspirated V12 (BMW)",
+   "unidades": "106",
+   "valor_nota": "record auction of $25.3M (2025)",
+   "curiosidade": "The driver sits in the middle, with a passenger on each side, and the engine bay is lined with gold."
+  },
+  "McLaren|P1|": {
+   "geracao": "P1 (2013)",
+   "anos": "2013–2015",
+   "motor": "3.8 twin-turbo V8 + electric motor (hybrid)",
+   "unidades": "375",
+   "valor_nota": "2026 European market prices",
+   "curiosidade": "It's part of the hybrid 'holy trinity', with the LaFerrari and the Porsche 918 Spyder."
+  },
+  "McLaren|Senna|": {
+   "geracao": "Senna (2018)",
+   "anos": "2018–2019",
+   "motor": "4.0 twin-turbo V8",
+   "unidades": "500",
+   "valor_nota": "2026 European market prices",
+   "curiosidade": "It has glass panels low down in the doors so the driver can see the ground rushing past."
+  },
+  "McLaren|720S|": {
+   "geracao": "720S (2017)",
+   "anos": "2017–2023",
+   "motor": "4.0 twin-turbo V8",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The instrument panel can fold away to show only the essentials, like in a race car."
+  },
+  "McLaren|750S|": {
+   "geracao": "750S (2023)",
+   "anos": "2023–present",
+   "motor": "4.0 twin-turbo V8",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It's the successor to the 720S and about 30% of the parts were changed, making it lighter and more powerful."
+  },
+  "McLaren|Artura|": {
+   "geracao": "Artura (MY2025)",
+   "anos": "2021–present",
+   "motor": "3.0 twin-turbo V6 + electric motor (plug-in hybrid)",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It was the first production McLaren with a V6 engine and can drive about 30 km in electric-only mode."
+  },
+  "Porsche|918 Spyder|": {
+   "geracao": "918 Spyder (2013)",
+   "anos": "2013–2015",
+   "motor": "4.6 naturally aspirated V8 + 2 electric motors (plug-in hybrid)",
+   "unidades": "918",
+   "valor_nota": "2026 market indices and auctions",
+   "curiosidade": "Exactly 918 were made, and the exhausts come out on top of the engine, right behind the occupants' heads."
+  },
+  "Porsche|Carrera GT|": {
+   "geracao": "Carrera GT (2004)",
+   "anos": "2004–2006",
+   "motor": "5.7 naturally aspirated V10",
+   "unidades": "1 270",
+   "valor_nota": "recent auction results",
+   "curiosidade": "The gear lever has a beechwood knob, a tribute to the Porsche 917 race car."
+  },
+  "Porsche|959|": {
+   "geracao": "959 (1986)",
+   "anos": "1986–1988",
+   "motor": "2.8 twin-turbo flat-6",
+   "unidades": "≈ 290",
+   "valor_nota": "2026 auctions between $2.5M and $2.9M",
+   "curiosidade": "It was so advanced that Bill Gates waited 13 years before he could legally drive it in the USA."
+  },
+  "Porsche|911|GT2 RS": {
+   "geracao": "911 GT2 RS (991.2, 2017)",
+   "anos": "2017–2019",
+   "motor": "3.8 twin-turbo flat-6",
+   "valor_nota": "market prices and auctions",
+   "curiosidade": "When it came out it was the most powerful road-going 911 ever and set the Nürburgring record in 2017 with 6:47.3."
+  },
+  "Porsche|911|GT3 RS": {
+   "geracao": "911 GT3 RS (992, 2022)",
+   "anos": "2022–present",
+   "motor": "4.0 naturally aspirated flat-6",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It has a rear wing with DRS, like in F1, which opens to gain speed on the straights."
+  },
+  "Porsche|Cayenne|Turbo": {
+   "geracao": "Cayenne Turbo E-Hybrid (E3, 2023)",
+   "anos": "2023–present",
+   "motor": "4.0 twin-turbo V8 + electric motor (plug-in hybrid)",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It's the most powerful hybrid Cayenne and, despite weighing more than 2.5 tonnes, it accelerates like a sports car."
+  },
+  "Porsche|Boxster|": {
+   "geracao": "718 Boxster (2016)",
+   "anos": "2016–2025",
+   "motor": "2.0 turbo flat-4",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The name combines 'boxer' (the engine type) with 'roadster' (a two-seat convertible)."
+  },
+  "Rimac|Nevera|": {
+   "geracao": "Nevera (2021)",
+   "anos": "2021–present",
+   "motor": "4 electric motors",
+   "unidades": "150",
+   "valor_nota": "used listings and auctions",
+   "curiosidade": "It's Croatian and broke more than 20 acceleration and braking records in a single day."
+  },
+  "Aston Martin|DB5|": {
+   "geracao": "DB5 (1963)",
+   "anos": "1963–1965",
+   "motor": "4.0 naturally aspirated straight-6",
+   "unidades": "≈ 1 060",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It became famous as James Bond's car in 'Goldfinger', with machine guns and an ejector seat."
+  },
+  "Aston Martin|Valkyrie|": {
+   "geracao": "Valkyrie (coupé, 2021)",
+   "anos": "2021–2024",
+   "motor": "6.5 naturally aspirated V12 (Cosworth) + electric motor",
+   "unidades": "150",
+   "valor_nota": "auction estimates and results",
+   "curiosidade": "It was designed by F1 engineer Adrian Newey, and the V12 revs to 11 100 rpm."
+  },
+  "Aston Martin|Vantage|": {
+   "geracao": "Vantage (2024)",
+   "anos": "2024–present",
+   "motor": "4.0 twin-turbo V8 (Mercedes-AMG)",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The 2024 version gained 30% more power and is the Formula 1 safety car."
+  },
+  "Bentley|Continental GT|": {
+   "geracao": "Continental GT Speed (4th generation, 2024)",
+   "anos": "2024–present",
+   "motor": "4.0 twin-turbo V8 + electric motor (plug-in hybrid)",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "This generation swapped the famous W12 for a hybrid V8 and became even more powerful."
+  },
+  "Rolls-Royce|Cullinan|": {
+   "geracao": "Cullinan (2018; Series II since 2024)",
+   "anos": "2018–present",
+   "motor": "6.75 twin-turbo V12",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It's named after the largest diamond ever found and can have seats that slide out of the boot for picnics."
+  },
+  "Maserati|MC20|": {
+   "geracao": "MC20 (2020)",
+   "anos": "2020–present",
+   "motor": "3.0 twin-turbo V6 'Nettuno'",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "The engine uses pre-chamber combustion technology taken from Formula 1."
+  },
+  "Mercedes-Benz|300 SL|": {
+   "geracao": "300 SL 'Gullwing' (W198, 1954)",
+   "anos": "1954–1957",
+   "motor": "3.0 naturally aspirated straight-6 (direct injection)",
+   "unidades": "1 400",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It was one of the first production cars with direct petrol injection, and the 'gullwing' doors were needed because of the chassis."
+  },
+  "Mercedes-Benz|SLS AMG|": {
+   "geracao": "SLS AMG (2010)",
+   "anos": "2010–2014",
+   "motor": "6.2 naturally aspirated V8",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It's the modern heir to the 300 SL, with the same gullwing doors."
+  },
+  "Mercedes-Benz|AMG ONE|": {
+   "geracao": "AMG ONE (2022)",
+   "anos": "2022–2024",
+   "motor": "1.6 turbo V6 (from F1) + 4 electric motors",
+   "unidades": "275",
+   "valor_nota": "2026 auction estimates",
+   "curiosidade": "The engine is the same type of hybrid V6 used in Mercedes' championship-winning F1 cars, and it set the Nürburgring record with 6:29."
+  },
+  "Mercedes-Benz|Classe G|G 63": {
+   "geracao": "G 63 (W465, 2024)",
+   "anos": "2024–present",
+   "motor": "4.0 twin-turbo V8 + 48 V system",
+   "valor_nota": "used prices (mobile.de/AutoScout24)",
+   "curiosidade": "It started life as a military vehicle in 1979 and is still built in Graz, Austria."
+  },
+  "Mercedes-Benz|SLR|": {
+   "geracao": "SLR McLaren (coupé, 2003)",
+   "anos": "2003–2009",
+   "motor": "5.4 supercharged V8",
+   "unidades": "≈ 2 150",
+   "valor_nota": "recent auction results",
+   "curiosidade": "Its exhausts exit at the sides, behind the front wheels, and it has an air brake that rises when braking."
+  },
+  "BMW|M3|": {
+   "geracao": "E46 (2000–2006)",
+   "anos": "2000–2006",
+   "motor": "3.2 naturally aspirated straight-6",
+   "unidades": "about 85 700",
+   "valor_nota": "used in Europe; manuals and well-kept ones are worth more",
+   "curiosidade": "The S54 engine revs to 8000 rpm and is considered one of the best naturally aspirated 6-cylinders ever."
+  },
+  "BMW|M4|": {
+   "geracao": "G82 Competition (2021–, rear-wheel-drive version)",
+   "anos": "2021–present",
+   "motor": "3.0 twin-turbo straight-6",
+   "valor_nota": "recent used ones in Europe; new costs quite a bit more in Portugal",
+   "curiosidade": "The huge vertical grille split opinions, but it was inspired by classic BMWs from the 1930s."
+  },
+  "BMW|M5|": {
+   "geracao": "G90 (2024–, current)",
+   "anos": "2024–present",
+   "motor": "4.4 twin-turbo V8 + electric motor (plug-in hybrid)",
+   "valor_nota": "recent used ones and new price in Europe",
+   "curiosidade": "It's the most powerful M5 ever and the first hybrid, but it also weighs almost 2.5 tonnes."
+  },
+  "BMW|M2|": {
+   "geracao": "G87 (2023–, current; 480 hp since 2024)",
+   "anos": "2023–present",
+   "motor": "3.0 twin-turbo straight-6",
+   "valor_nota": "recent used and new in Europe",
+   "curiosidade": "You can still buy it with a 6-speed manual gearbox, which is getting rarer and rarer."
+  },
+  "BMW|i8|": {
+   "geracao": "I12/I15 (2014–2020)",
+   "anos": "2014–2020",
+   "motor": "1.5 turbo 3-cylinder + electric motor (plug-in hybrid)",
+   "unidades": "about 20 500",
+   "valor_nota": "used in Europe, depending on mileage and condition",
+   "curiosidade": "It has doors that open upwards like wings and an engine with only 3 cylinders, just like a small car's."
+  },
+  "BMW|Z8|": {
+   "geracao": "E52 (2000–2003)",
+   "anos": "2000–2003",
+   "motor": "4.9 naturally aspirated V8",
+   "unidades": "5 703",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It was James Bond's car in 'The World Is Not Enough' (1999), where it gets sliced in half by a helicopter."
+  },
+  "BMW|M1|": {
+   "geracao": "E26 (1978–1981)",
+   "anos": "1978–1981",
+   "motor": "3.5 naturally aspirated straight-6",
+   "unidades": "453 (399 road cars)",
+   "valor_nota": "2023–2026 auction results",
+   "curiosidade": "It was the first model from the M division, and it was designed by the Italian Giorgetto Giugiaro."
+  },
+  "Audi|R8|": {
+   "geracao": "2nd generation V10 performance quattro (2019–2024)",
+   "anos": "2015–2024",
+   "motor": "5.2 naturally aspirated V10",
+   "valor_nota": "used in Europe, depending on version and mileage",
+   "curiosidade": "It shares its V10 engine and much of its platform with the Lamborghini Huracán."
+  },
+  "Audi|A6|RS 6": {
+   "geracao": "C8 RS 6 Avant (2019–present)",
+   "anos": "2019–present",
+   "motor": "4.0 twin-turbo V8 with mild-hybrid system",
+   "valor_nota": "used in Europe; performance versions are worth more",
+   "curiosidade": "It's a family estate that can accelerate faster than lots of sports cars."
+  },
+  "Audi|A3|RS 3": {
+   "geracao": "8Y (2021–present, current)",
+   "anos": "2021–present",
+   "motor": "2.5 turbo 5-cylinder",
+   "valor_nota": "recent used and new in Portugal",
+   "curiosidade": "It has an 'RS Torque Rear' mode that sends power to the outside rear wheel and lets you drift."
+  },
+  "Audi|TT|TT RS": {
+   "geracao": "8S (2016–2023)",
+   "anos": "2016–2023",
+   "motor": "2.5 turbo 5-cylinder",
+   "valor_nota": "used in Europe, depending on condition",
+   "curiosidade": "The sound of the 5-cylinder engine is a reminder of the 1980s Audi quattro rally cars."
+  },
+  "Audi|Quattro (clássico)|": {
+   "geracao": "Ur-quattro (1980–1991)",
+   "anos": "1980–1991",
+   "motor": "2.1 turbo 5-cylinder",
+   "unidades": "11 452",
+   "valor_nota": "classics in Europe, depending on condition",
+   "curiosidade": "It revolutionised rallying by proving that all-wheel drive was the way to win."
+  },
+  "Nissan|GT-R|": {
+   "geracao": "R35 (2007–2025), 570 hp version (2017+)",
+   "anos": "2007–2025",
+   "motor": "3.8 twin-turbo V6",
+   "unidades": "about 48 000",
+   "valor_nota": "used in Europe, depending on year",
+   "curiosidade": "Each engine is hand-built by a single 'Takumi' technician, who fits a plaque with their name."
+  },
+  "Nissan|Skyline|GT-R R34": {
+   "geracao": "BNR34 (1999–2002)",
+   "anos": "1999–2002",
+   "motor": "2.6 twin-turbo straight-6 (RB26DETT)",
+   "unidades": "about 11 578",
+   "valor_nota": "imported from Japan; V-Spec and Nür are worth much more",
+   "curiosidade": "Officially it had 280 hp because of a Japanese 'gentlemen's agreement', but in reality it had more."
+  },
+  "Toyota|Supra|A80": {
+   "geracao": "A80 MK4 Turbo (1993–2002)",
+   "anos": "1993–2002",
+   "motor": "3.0 twin-turbo straight-6 (2JZ-GTE)",
+   "valor_nota": "original manual Turbos are worth more",
+   "curiosidade": "The 2JZ engine is so tough that some people tune it to more than 1000 hp."
+  },
+  "Toyota|Supra|": {
+   "geracao": "GR Supra A90 3.0 (2019–2026)",
+   "anos": "2019–2026",
+   "motor": "3.0 turbo straight-6 (from BMW)",
+   "valor_nota": "used in Europe",
+   "curiosidade": "It was developed in partnership with BMW and shares its platform with the BMW Z4."
+  },
+  "Toyota|GR Yaris|": {
+   "geracao": "GR Yaris (2020–, current 280 hp since 2024)",
+   "anos": "2020–present",
+   "motor": "1.6 turbo 3-cylinder",
+   "valor_nota": "used and new in Portugal",
+   "curiosidade": "It was created to homologate the World Rally Championship Yaris and has the most powerful 3-cylinder engine in the world."
+  },
+  "Toyota|AE86|": {
+   "geracao": "Corolla GT AE86 (1983–1987)",
+   "anos": "1983–1987",
+   "motor": "1.6 naturally aspirated 4-cylinder (4A-GE)",
+   "valor_nota": "classics in Europe; original ones are rare",
+   "curiosidade": "It became famous thanks to the manga 'Initial D', where it delivers tofu down mountain roads."
+  },
+  "Honda|NSX|": {
+   "geracao": "1st generation NA1 (1990–1997)",
+   "anos": "1990–2005",
+   "motor": "3.0 naturally aspirated VTEC V6",
+   "unidades": "about 18 700 (whole 1st generation)",
+   "valor_nota": "classics in Europe, depending on condition",
+   "curiosidade": "Ayrton Senna helped fine-tune the NSX's chassis in testing at Suzuka and the Nürburgring."
+  },
+  "Honda|Civic|Type R": {
+   "geracao": "FL5 (2022–present)",
+   "anos": "2022–present",
+   "motor": "2.0 turbo 4-cylinder",
+   "valor_nota": "used in Europe",
+   "curiosidade": "It set front-wheel-drive lap records at Suzuka and Estoril."
+  },
+  "Honda|S2000|": {
+   "geracao": "AP1/AP2 (1999–2009)",
+   "anos": "1999–2009",
+   "motor": "2.0 naturally aspirated VTEC 4-cylinder",
+   "unidades": "about 110 000",
+   "valor_nota": "used in Europe, depending on condition",
+   "curiosidade": "The engine revs to 9000 rpm, a race-car figure."
+  },
+  "Mazda|RX-7|": {
+   "geracao": "FD (1992–2002)",
+   "anos": "1992–2002",
+   "motor": "1.3 twin-turbo twin-rotor Wankel",
+   "unidades": "about 68 600",
+   "valor_nota": "imported classics; original ones are worth more",
+   "curiosidade": "It uses a Wankel rotary engine, with no normal pistons, which spins very smoothly."
+  },
+  "Mazda|MX-5|": {
+   "geracao": "ND 2.0 (2015–present, current)",
+   "anos": "2015–present",
+   "motor": "2.0 naturally aspirated 4-cylinder",
+   "valor_nota": "used and new in Portugal",
+   "curiosidade": "It's the best-selling two-seat roadster in history, according to Guinness."
+  },
+  "Subaru|Impreza|WRX STI": {
+   "geracao": "GD 2.5 (2005–2007)",
+   "anos": "2000–2007",
+   "motor": "2.5 turbo flat-4",
+   "valor_nota": "used in Europe; original ones are worth more",
+   "curiosidade": "The boxer engine gives it an unmistakable 'burbling' sound that fans love."
+  },
+  "Mitsubishi|Lancer Evolution|": {
+   "geracao": "Evo IX (2005–2007)",
+   "anos": "2005–2007",
+   "motor": "2.0 turbo 4-cylinder",
+   "valor_nota": "used in Europe, depending on modifications",
+   "curiosidade": "It was the last Evo with the legendary 4G63 engine, used since the very first Evolution."
+  },
+  "Ford|GT|": {
+   "geracao": "2nd generation (2017–2022)",
+   "anos": "2017–2022",
+   "motor": "3.5 twin-turbo V6",
+   "unidades": "1 350",
+   "valor_nota": "recent auction results",
+   "curiosidade": "To buy one you had to send an application to Ford and be chosen."
+  },
+  "Ford|GT40|": {
+   "geracao": "Mk I (1964–1969)",
+   "anos": "1964–1969",
+   "motor": "4.7 naturally aspirated V8",
+   "unidades": "87 Mk I (31 road cars)",
+   "valor_nota": "auction results and estimates",
+   "curiosidade": "It was created to beat Ferrari at Le Mans, and it won the race four times in a row (1966–1969)."
+  },
+  "Ford|Mustang|GT": {
+   "geracao": "S650 (2024–present, European version)",
+   "anos": "2024–present",
+   "motor": "5.0 naturally aspirated V8",
+   "valor_nota": "recent used and new in Europe",
+   "curiosidade": "The Mustang has been in continuous production since 1964, more than 60 years."
+  },
+  "Ford|Focus|RS": {
+   "geracao": "Mk3 (2016–2018)",
+   "anos": "2016–2018",
+   "motor": "2.3 turbo 4-cylinder",
+   "valor_nota": "used in Europe, depending on condition",
+   "curiosidade": "It came with a standard 'Drift Mode' that helped you do controlled slides."
+  },
+  "Ford|Model T|": {
+   "geracao": "Model T (1908–1927)",
+   "anos": "1908–1927",
+   "motor": "2.9 4-cylinder",
+   "unidades": "about 15 million",
+   "valor_nota": "classics, depending on year and condition",
+   "curiosidade": "It was the first car made on a moving assembly line, which made it cheap enough for everyone."
+  },
+  "Chevrolet|Corvette|": {
+   "geracao": "C8 Stingray (2020–, European 6.2 version)",
+   "anos": "2020–present",
+   "motor": "6.2 naturally aspirated V8 (mid-engined)",
+   "valor_nota": "used and new in Europe",
+   "curiosidade": "It's the first mid-engined Corvette, with the engine behind the occupants, like in a Ferrari."
+  },
+  "Dodge|Viper|": {
+   "geracao": "VX (2013–2017)",
+   "anos": "2013–2017",
+   "motor": "8.4 naturally aspirated V10",
+   "unidades": "2 427",
+   "valor_nota": "imports; the ACR is worth a lot more",
+   "curiosidade": "The V10 engine is 8.4 litres, more than two family-car engines put together."
+  },
+  "Tesla|Model S|Plaid": {
+   "geracao": "Model S Plaid (2021–2026)",
+   "anos": "2021–2026",
+   "motor": "3 electric motors",
+   "valor_nota": "used in Europe",
+   "curiosidade": "It accelerates from 0 to 100 km/h faster than many petrol hypercars."
+  },
+  "Lancia|Stratos|": {
+   "geracao": "HF Stradale (1973–1978)",
+   "anos": "1973–1978",
+   "motor": "2.4 naturally aspirated Ferrari Dino V6",
+   "unidades": "about 492",
+   "valor_nota": "recent auction results",
+   "curiosidade": "It was the first car designed from scratch to win rallies and was world champion three times."
+  },
+  "Lancia|Delta|HF Integrale": {
+   "geracao": "HF Integrale Evoluzione (1991–1993)",
+   "anos": "1991–1993",
+   "motor": "2.0 turbo 4-cylinder",
+   "valor_nota": "classics in Europe, depending on condition",
+   "curiosidade": "Lancia won six World Rally manufacturers' titles in a row with the Delta (1987–1992)."
+  },
+  "Alpine|A110|": {
+   "geracao": "A110 (2017–2026), base version",
+   "anos": "2017–2026",
+   "motor": "1.8 turbo 4-cylinder",
+   "valor_nota": "used in Europe",
+   "curiosidade": "It weighs just over 1100 kg thanks to its almost all-aluminium body."
+  },
+  "Lotus|Elise|": {
+   "geracao": "S2 1.8 (2001–2010)",
+   "anos": "2001–2021",
+   "motor": "1.8 naturally aspirated 4-cylinder",
+   "valor_nota": "used in Europe, depending on version",
+   "curiosidade": "Its aluminium chassis is glued instead of welded, and it weighs less than 900 kg."
+  },
+  "Lotus|Evija|": {
+   "geracao": "Evija (2023–present)",
+   "anos": "2023–present",
+   "motor": "4 electric motors",
+   "unidades": "130 planned",
+   "valor_nota": "new price (about 2 million pounds or more)",
+   "curiosidade": "It was the first British electric hypercar and has about 2000 hp."
+  },
+  "Volkswagen|Golf|GTI": {
+   "geracao": "Mk1 (1976–1983)",
+   "anos": "1976–1983",
+   "motor": "1.6 fuel-injected 4-cylinder",
+   "unidades": "about 462 000",
+   "valor_nota": "classics in Europe, depending on condition",
+   "curiosidade": "The golf ball gear knob became a GTI trademark."
+  },
+  "Volkswagen|Carocha|": {
+   "geracao": "Beetle 1300 (1965–1973)",
+   "anos": "1938–2003",
+   "motor": "1.3 air-cooled flat-4",
+   "unidades": "21 529 464 (all Beetles)",
+   "valor_nota": "classics in Portugal, depending on condition",
+   "curiosidade": "The engine is at the back and is air-cooled, so it has no water radiator."
+  },
+  "Fiat|500 (clássico)|": {
+   "geracao": "Nuova 500 (1957–1975)",
+   "anos": "1957–1975",
+   "motor": "0.5 air-cooled 2-cylinder",
+   "unidades": "about 3.9 million",
+   "valor_nota": "classics in Portugal, depending on condition",
+   "curiosidade": "It's only 2.97 metres long and the engine is at the back."
+  },
+  "Mini|Mini clássico|": {
+   "geracao": "Mini 1000 (998 cc)",
+   "anos": "1969–1980",
+   "motor": "998 cc petrol, 4-cylinder, 38 hp",
+   "unidades": "≈5.3 million (all classic Minis)",
+   "valor_nota": "Highly sought-after classic",
+   "curiosidade": "The engine is mounted sideways to save space, and 80% of the car is for passengers and luggage."
+  },
+  "Citroën|2CV|": {
+   "geracao": "2CV6 602 cc (1970–1990)",
+   "anos": "1948–1990",
+   "motor": "0.6 air-cooled flat-twin",
+   "unidades": "3 872 583 (saloons)",
+   "valor_nota": "classics in Portugal, depending on condition",
+   "curiosidade": "The very last 2CV was built in Portugal, in Mangualde, on 27 July 1990."
+  },
+  "Renault|5 Turbo|": {
+   "geracao": "5 Turbo and Turbo 2 (1980–1986)",
+   "anos": "1980–1986",
+   "motor": "1.4 turbo 4-cylinder (mid-engined)",
+   "unidades": "4 987 (Turbo 1 and Turbo 2)",
+   "valor_nota": "classics in Europe; the Turbo 1 is worth more",
+   "curiosidade": "It looks like a normal Renault 5, but the engine sits behind the front seats, where the rear passengers would be."
+  },
+  "Peugeot|205|GTI": {
+   "geracao": "205 GTI 1.9 (1986–1994)",
+   "anos": "1984–1994",
+   "motor": "1.9 fuel-injected 4-cylinder",
+   "valor_nota": "classics in Portugal; original ones are worth more",
+   "curiosidade": "Many people consider it the best 'hot hatch' of the 80s."
+  },
+  "DeLorean|DMC-12|": {
+   "geracao": "DMC-12 (1981–1983)",
+   "anos": "1981–1983",
+   "motor": "2.85 naturally aspirated PRV V6",
+   "unidades": "about 9 000",
+   "valor_nota": "classics in Europe and the USA",
+   "curiosidade": "It became famous as the time machine in 'Back to the Future', which travelled in time on reaching 88 mph."
+  },
+  "Jaguar|E-Type|": {
+   "geracao": "Series 1 3.8 (1961–1964)",
+   "anos": "1961–1975",
+   "motor": "3.8 naturally aspirated straight-6",
+   "unidades": "7 827 (3.8 roadsters only)",
+   "valor_nota": "classics; roadsters are worth more than coupés",
+   "curiosidade": "Enzo Ferrari is said to have called it the most beautiful car ever made."
+  },
+  "Land Rover|Defender|": {
+   "geracao": "L663 110 D250 (2020–present, current)",
+   "anos": "2020–present",
+   "motor": "3.0 straight-6 diesel mild-hybrid",
+   "valor_nota": "used and new in Portugal",
+   "curiosidade": "It can wade through water up to 90 cm deep."
+  },
+  "Mazda|Mazda2|": {
+   "geracao": "2nd generation (DE) 1.3",
+   "anos": "2007–2014",
+   "motor": "1.3 petrol, 4-cylinder, 86 hp",
+   "valor_nota": "Affordable and reliable used car",
+   "curiosidade": "This generation was about 100 kg lighter than the previous Mazda2, bucking the trend of cars getting heavier with every new model."
+  },
+  "Mercedes-Benz|Classe S|Coupé": {
+   "geracao": "C217 – S 500 4MATIC Coupé",
+   "anos": "2014–2021",
+   "motor": "4.7 twin-turbo V8 petrol, 455 hp",
+   "valor_nota": "Has lost a lot of value compared with ~€150k new",
+   "curiosidade": "The headlights could have Swarovski crystals, and the Magic Body Control suspension leaned the car into corners like a motorbike."
+  },
+  "Renault|4|": {
+   "geracao": "Renault 4 GTL (1108 cc)",
+   "anos": "1961–1992",
+   "motor": "1.1 (1108 cc) petrol, 4-cylinder, 34 hp",
+   "unidades": "more than 8 million",
+   "valor_nota": "Popular classic; restored ones are worth much more",
+   "curiosidade": "It was assembled in Portugal, at the Guarda factory, where more than 190 thousand of the famous “Quatro L” were made."
+  },
+  "Volvo|240|": {
+   "geracao": "240 Estate (B230F 2.3)",
+   "anos": "1974–1993",
+   "motor": "2.3 petrol, 4-cylinder, 116 hp",
+   "unidades": "≈2.86 million (200 series)",
+   "valor_nota": "Cult estate, rising in value",
+   "curiosidade": "It was so “boxy” and tough that it became known as “the brick”, and many are still going with more than 500 000 km."
+  },
+  "Opel|Kadett|": {
+   "geracao": "Kadett D 1.2 S",
+   "anos": "1979–1984",
+   "motor": "1.2 (1196 cc) petrol, 4-cylinder, 60 hp",
+   "valor_nota": "Rare to see in good condition",
+   "curiosidade": "It was the first front-wheel-drive Kadett, a big change for Opel at the time."
+  },
+  "UMM|Alter|": {
+   "geracao": "Alter II 2.5 Diesel",
+   "anos": "1986–1994",
+   "motor": "2.5 Peugeot diesel, 4-cylinder, 76 hp",
+   "valor_nota": "National pride, demand on the rise",
+   "curiosidade": "It's a Portuguese 4x4, built by União Metalo-Mecânica, and was used by the Army and the GNR (Portugal's National Guard)."
+  },
+  "Maserati|Ghibli|": {
+   "geracao": "M157 Ghibli Diesel",
+   "anos": "2013–2024",
+   "motor": "3.0 V6 turbodiesel, 275 hp",
+   "valor_nota": "Loses value fast; watch out for maintenance costs",
+   "curiosidade": "It was the first Maserati ever with a diesel engine, and the brand tuned the exhaust to sound sporty."
+  },
+  "Lamborghini|Huracán|Performante": {
+   "geracao": "Huracán Performante (coupé)",
+   "anos": "2017–2019",
+   "motor": "5.2 naturally aspirated V10, 640 hp",
+   "valor_nota": "Holds its value very well",
+   "curiosidade": "It set the production car record at the Nürburgring in 2016, with 6:52.01, thanks to ALA active aerodynamics."
+  },
+  "Alfa Romeo|4C|Spider": {
+   "geracao": "4C Spider",
+   "anos": "2015–2020",
+   "motor": "1.75 turbo petrol, 4-cylinder, 240 hp",
+   "valor_nota": "Future classic, prices holding firm",
+   "curiosidade": "It has a carbon fibre chassis like a supercar and weighs just over 1000 kg; it doesn't even have power steering."
+  },
+  "Maserati|Quattroporte|": {
+   "geracao": "6th generation (M156) S Q4",
+   "anos": "2013–2024",
+   "motor": "3.0 twin-turbo V6 petrol, 410 hp",
+   "valor_nota": "Luxury for the price of an ordinary used car",
+   "curiosidade": "The twin-turbo V6 engine was built by Ferrari in Maranello, and the name simply means “four doors”."
+  },
+  "Ford|Model A|": {
+   "geracao": "Model A (includes pickup)",
+   "anos": "1927–1931",
+   "motor": "3.3 petrol, 4-cylinder, 40 hp",
+   "unidades": "4 858 644",
+   "valor_nota": "Affordable pre-war classic",
+   "curiosidade": "It replaced the Model T and was such a big hit that almost 5 million were sold in four years."
+  },
+  "Opel|Blitz|": {
+   "geracao": "Blitz 1.75 t (2nd generation)",
+   "anos": "1952–1960",
+   "motor": "2.5 petrol, straight-6, 58 hp",
+   "unidades": "89 767",
+   "valor_nota": "Varies a lot depending on restoration and bodywork",
+   "curiosidade": "“Blitz” means “lightning” in German, and Opel's lightning-bolt logo was born from this truck."
+  },
+  "Volkswagen|Carocha|Cabrio": {
+   "geracao": "Beetle Cabriolet Karmann 1303",
+   "anos": "1972–1980",
+   "motor": "1.6 air-cooled petrol boxer, 50 hp",
+   "unidades": "331 847 (all Beetle Cabrios)",
+   "valor_nota": "The most valuable Beetle, always in demand",
+   "curiosidade": "It was made by Karmann and stayed in production until 1980, after the Beetle saloon had already ended production in Germany."
+  }
+ }
+}

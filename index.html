@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Caderneta de Carros</title>
+<meta name="description" content="A tua caderneta de carros apanhados na rua, com raridades, Marcadex e fichas técnicas.">
+<meta name="theme-color" content="#14181D">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <div class="install" id="updateBar" hidden><span></span><button class="btn" type="button"></button></div>
+  <div class="install" id="installBar" hidden><span data-i18n="install"></span><button class="btn" type="button" id="installBtn" data-i18n="installBtn"></button></div>
+  <header>
+    <div class="head-top">
+      <h1 data-i18n="appName"></h1>
+      <button class="me" type="button" id="meBtn" hidden aria-pressed="false"><span class="av" id="meAv"></span><span id="meNick"></span><span class="melvl" id="meLvl"></span></button>
+    </div>
+    <button class="lvlbar" type="button" id="lvlBar" hidden>
+      <span class="lvlnum" id="lvlNum">1</span>
+      <span class="lvlmid"><span class="lvlrow"><b id="lvlTitle"></b><small id="lvlTxt"></small></span><span class="pbar"><span id="lvlFill"></span></span></span>
+    </button>
+    <p class="sub" id="sub"></p>
+    <button class="btn" id="openAdd" type="button" hidden data-i18n="add"></button>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" type="button" role="tab" data-mode="rua" aria-selected="true"><span data-i18n="tabRua"></span> <small id="cnt-rua"></small></button>
+    <button class="tab" type="button" role="tab" data-mode="expo" aria-selected="false"><span data-i18n="tabExpo"></span> <small id="cnt-expo"></small></button>
+    <button class="tab" type="button" role="tab" data-mode="dex" aria-selected="false"><span data-i18n="tabDex"></span> <small id="cnt-dex"></small></button>
+    <button class="tab" type="button" role="tab" data-mode="friends" aria-selected="false"><span data-i18n="tabFriends"></span> <small id="cnt-friends"></small></button>
+  </div>
+
+  <div id="cadView" class="view">
+  <section class="stats">
+    <div class="stat"><b id="sCount">0</b><span data-i18n="statCars"></span></div>
+    <div class="stat"><b id="sTop">–</b><span data-i18n="statTop"></span></div>
+    <div class="stat"><b id="sPts">0</b><span data-i18n="statPts"></span></div>
+  </section>
+
+  <div class="sess" id="sessBar"></div>
+  <div class="memory" id="memory" hidden></div>
+
+  <section style="display:flex;flex-direction:column;gap:8px">
+    <div class="scale" id="scale"></div>
+    <div class="scale-cap"><span id="scaleLow"></span><span id="scaleHigh"></span></div>
+    <div class="filter-note" id="filterNote" hidden></div>
+  </section>
+
+  <section class="panel" id="addPanel" hidden>
+    <h2 id="addTitle"></h2>
+    <div class="w-field"><span class="w-lab" data-i18n="cadLabel"></span>
+      <div class="seg2" id="srcPick"><button type="button" data-s="rua" data-i18n="tabRua"></button><button type="button" data-s="expo" data-i18n="tabExpo"></button></div>
+    </div>
+    <div class="w-field"><span class="w-lab" data-i18n="photo"></span>
+      <div class="photo-btns">
+        <label class="btn filebtn solid"><span data-i18n="camera"></span><input type="file" id="fCam" accept="image/*" capture="environment" hidden></label>
+        <label class="btn ghost filebtn"><span data-i18n="gallery"></span><input type="file" id="fPhoto" accept="image/jpeg,image/png,image/webp,image/heic" hidden></label>
+      </div>
+    </div>
+    <div class="plate" id="plateBox" hidden>
+      <p class="plate-hint"><b data-i18n="plateHintB"></b> <span data-i18n="plateHint"></span></p>
+      <div class="plate-wrap"><canvas id="plateCv"></canvas></div>
+      <div class="actions"><button class="btn ghost" id="plateUndo" type="button" disabled data-i18n="undo"></button><span class="plate-count" id="plateCount"></span></div>
+    </div>
+    <div class="row">
+      <label><span data-i18n="brand"></span> <input id="fBrand" data-i18n-ph="brandPh" autocomplete="off" list="brandList"></label>
+      <label><span data-i18n="model"></span> <input id="fModel" data-i18n-ph="modelPh" autocomplete="off" list="modelList"></label>
+    </div>
+    <datalist id="brandList"></datalist>
+    <div class="tierpick">
+      <label for="fTier" data-i18n="rarity"></label>
+      <input type="range" id="fTier" min="1" max="10" step="1" value="2">
+      <div class="now" id="tierNow"></div>
+      <div class="suggest" id="suggest" hidden></div>
+    </div>
+    <datalist id="modelList"></datalist>
+    <div class="row">
+      <label><span data-i18n="date"></span> <input type="date" id="fDate"></label>
+      <label><span data-i18n="where"></span> <input id="fPlace" data-i18n-ph="wherePh" autocomplete="off"></label>
+    </div>
+    <div class="w-field"><span class="w-lab" data-i18n="color"></span><div class="colors" id="colorPick"></div></div>
+    <label><span data-i18n="note"></span> <textarea id="fNote" data-i18n-ph="notePh"></textarea></label>
+    <label class="check"><input type="checkbox" id="useGps"> <span data-i18n="useGps"></span></label>
+    <div class="msg" id="formMsg" hidden></div>
+    <div class="actions">
+      <button class="btn" id="saveBtn" type="button" data-i18n="save"></button>
+      <button class="btn ghost" id="cancelBtn" type="button" data-i18n="cancel"></button>
+    </div>
+  </section>
+
+  <div class="backupbar" id="backupBar" hidden><span id="backupTxt"></span><div class="actions"><button class="btn" type="button" id="backupNow" data-i18n="exportBtn"></button><button class="btn ghost" type="button" id="backupLater" data-i18n="later"></button></div></div>
+  <div class="tools">
+    <input type="search" id="qCars" data-i18n-ph="searchCarsPh" autocomplete="off">
+    <select id="sortCars"><option value="rar" data-i18n="sort_rar"></option><option value="new" data-i18n="sort_new"></option><option value="old" data-i18n="sort_old"></option><option value="brand" data-i18n="sort_brand"></option></select>
+    <button type="button" class="vbtn" id="viewBtn" aria-pressed="false">▦</button>
+  </div>
+  <section id="list" style="display:flex;flex-direction:column;gap:26px" aria-live="polite"></section>
+
+  <details class="guide" id="appMenu">
+    <summary data-i18n="backupTitle"></summary>
+    <div class="app-menu">
+      <p data-i18n="backupText"></p>
+      <div class="actions">
+        <button class="btn" type="button" id="exportBtn" data-i18n="exportBtn"></button>
+        <label class="btn ghost filebtn"><span data-i18n="importBtn"></span><input type="file" id="importFile" accept="application/json,.json" hidden></label>
+      </div>
+      <div class="confirm" id="importConfirm" hidden>
+        <span id="importInfo"></span>
+        <div class="actions"><button class="btn" type="button" id="importYes" data-i18n="importYes"></button><button class="btn ghost" type="button" id="importNo" data-i18n="cancel"></button></div>
+      </div>
+      <span class="app-msg" id="appMsg" role="status"></span>
+      <p data-i18n="safetyText"></p>
+      <p data-i18n="printText"></p>
+      <div class="actions"><button class="btn ghost" type="button" id="printBtn" data-i18n="printBtn"></button></div>
+      <a class="linkbtn" href="privacidade.html" target="_blank" rel="noopener" data-i18n="privacy"></a>
+    </div>
+  </details>
+
+  <details class="guide">
+    <summary id="guideTitle"></summary>
+    <ol id="guide"></ol>
+  </details>
+  </div>
+
+  <div id="dexView" class="view" hidden>
+    <div class="dexextra" id="dexExtra"></div>
+    <section class="dexhead">
+      <div class="dexprog"><b id="dexCount">0</b> / <span id="dexTotal">0</span> <span data-i18n="dexProg"></span></div>
+      <div class="pbar"><span id="dexBar"></span></div>
+    </section>
+    <div class="dexctl">
+      <label><span data-i18n="searchBrand"></span> <input id="dexSearch" type="search" data-i18n-ph="searchPh" autocomplete="off"></label>
+      <div class="chips" id="dexFilter">
+        <button class="chip" type="button" data-f="all" aria-pressed="true" data-i18n="fAll"></button>
+        <button class="chip" type="button" data-f="got" aria-pressed="false" data-i18n="fGot"></button>
+        <button class="chip" type="button" data-f="miss" aria-pressed="false" data-i18n="fMiss"></button>
+      </div>
+      <div class="chips" id="dexTypes"></div>
+    </div>
+    <div class="dexgrid" id="dexGrid"></div>
+  </div>
+
+  <div id="playerView" class="view" hidden></div>
+
+  <div id="friendsView" class="view" hidden>
+    <section class="fsec">
+      <h2 data-i18n="ranking"></h2>
+      <ol class="rank" id="rank"></ol>
+    </section>
+    <section class="fsec" id="friendList"></section>
+    <section class="panel">
+      <h2 data-i18n="shareTitle"></h2>
+      <p class="ptext" data-i18n="shareText"></p>
+      <label class="check"><input type="checkbox" id="shareWithPhotos" checked> <span data-i18n="withPhotos"></span></label>
+      <div class="actions"><button class="btn" type="button" id="shareBtn" data-i18n="shareBtn"></button></div>
+      <span class="app-msg" id="shareMsg" role="status"></span>
+    </section>
+    <section class="panel">
+      <h2 data-i18n="addFriendTitle"></h2>
+      <p class="ptext" data-i18n="addFriendText"></p>
+      <div class="actions"><label class="btn filebtn solid"><span data-i18n="addFriendBtn"></span><input type="file" id="friendFile" accept="application/json,text/plain,.json,.txt" hidden></label></div>
+      <span class="app-msg" id="friendMsg" role="status"></span>
+      <p class="ptext" data-i18n="safetyFriends"></p>
+    </section>
+  </div>
+</div>
+
+<div class="rv" id="rv" hidden role="dialog" aria-modal="true">
+  <div class="rv-stage">
+    <div class="rv-rays"></div>
+    <div class="rv-card" id="rvCard"><div class="rv-face rv-back"><span>?</span></div><div class="rv-face rv-front" id="rvFront"></div></div>
+    <div class="rv-msg" id="rvMsg"></div>
+    <button class="btn" type="button" id="rvOk" data-i18n="rvOk"></button>
+  </div>
+</div>
+
+<div class="ov" id="ov" hidden>
+  <div class="ov-box" role="dialog" aria-modal="true" aria-labelledby="ovTitle">
+    <div class="ov-bar"><span id="ovTitle" class="sect"></span><button class="btn ghost" type="button" id="ovClose"></button></div>
+    <div id="ovBody"></div>
+  </div>
+</div>
+
+<div class="tut" id="quiz" hidden role="dialog" aria-modal="true"><div class="tut-card quiz-card" id="quizCard"><div id="quizBody"></div></div></div>
+
+<div class="tut" id="duel" hidden role="dialog" aria-modal="true"><div class="tut-card duel-card"><div id="duelBody"></div></div></div>
+
+<div class="tut wrapup" id="wrapUp" hidden role="dialog" aria-modal="true"><div class="wr-card" id="wrapBody"></div></div>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<div class="tut" id="tut" hidden role="dialog" aria-modal="true" aria-labelledby="tutT">
+  <div class="tut-card" id="tutCard">
+    <div class="tut-scene" id="tutScene"></div>
+    <h2 id="tutT"></h2>
+    <p id="tutD"></p>
+    <p class="tut-rules" id="tutRules" hidden></p>
+    <div class="tut-dots" id="tutDots"></div>
+    <div class="actions"><button class="btn" type="button" id="tutNext"></button><button class="btn ghost" type="button" id="tutSkip"></button></div>
+  </div>
+</div>
+
+<div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="wTitle">
+  <div class="w-box">
+    <div class="w-hero" aria-hidden="true"><span class="c1"></span><span class="c2"></span><span class="c3">10</span></div>
+    <h2 id="wTitle"></h2>
+    <p id="wText"></p>
+    <div class="w-field">
+      <span class="w-lab" data-i18n="chooseLang"></span>
+      <div class="langs" id="langPick"></div>
+    </div>
+    <div class="wcard" id="wCard" aria-label="">
+      <span class="wc-lab" data-i18n="previewCard"></span>
+      <span class="wc-av" id="wcAv"></span>
+      <span class="wc-nick" id="wcNick"></span>
+      <span class="wc-lvl"><span data-i18n="title_1"></span> · Lv 1</span>
+    </div>
+    <label class="w-field"><span class="w-lab" data-i18n="nickLabel"></span>
+      <input id="wNick" maxlength="20" autocomplete="off" data-i18n-ph="nickPh">
+      <small data-i18n="nickHint"></small>
+    </label>
+    <div class="w-field">
+      <span class="w-lab" data-i18n="avatarLabel"></span>
+      <div class="avatars" id="avPick"></div>
+    </div>
+    <div class="w-field">
+      <span class="w-lab" data-i18n="avColor"></span>
+      <div class="colors" id="colPick"></div>
+    </div>
+    <span class="msg" id="wMsg" hidden></span>
+    <div class="actions"><button class="btn" type="button" id="wGo"></button><button class="btn ghost" type="button" id="wCancel" hidden data-i18n="cancel"></button></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="game.js"></script>
+<script src="extras.js"></script>
+<script src="fun.js"></script>
+<script src="duel.js"></script>
+<script src="tools.js"></script>
+</body>
+</html>

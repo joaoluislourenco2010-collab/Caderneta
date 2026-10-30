@@ -1,0 +1,66 @@
+CADERNETA DE CARROS v8 - como pôr a app online (grátis)
+
+NOVIDADES v8:
+- Partilhar fotos para a app: na galeria do telemóvel carrega em Partilhar → Caderneta
+  (só funciona com a app instalada a partir do GitHub Pages).
+- Data automática: a app lê a data verdadeira da foto.
+- Atalhos: carrega sem largar no ícone da app (Novo carro, Saída, Marcadex, Duelo).
+- Saídas de spotting com resumo no fim, «Neste dia» (recordações), comparador de carros,
+  Resumo do ano (estilo histórias), imprimir/guardar em PDF, vista só de fotos, texto grande.
+- 4 conquistas novas.
+IMPORTANTE: põe no GitHub TODOS os ficheiros, incluindo o novo tools.js e o manifest.webmanifest.
+
+NOVIDADES v7: Duelo de cartas contra o computador, lista de desejos, 15 marcas novas
+(124 no total), política de privacidade e guia para a Play Store.
+Da v6: quiz de carros, 12 coleções temáticas, marca do dia e 4 conquistas novas.
+Da v5: sequência de dias seguidos, partilhar a carta como imagem, anular remoção,
+definições (tema claro/escuro, sons, vibração), aviso de carro repetido e aviso de versão nova.
+Da v4: tirar foto com a câmara, editar carros, procurar e ordenar,
+sugestões de modelos e raridade automática, vitrine de favoritos e lembrete de cópia.
+Da v3: nível de jogador, 31 conquistas, desafios do dia e da semana,
+cartas holográficas, estatísticas, mapa (opcional), cor dos carros,
+entrada animada e tutorial. Continua com 5 idiomas e Amigos.
+
+PÔR ONLINE (GitHub Pages):
+1. Cria uma conta em https://github.com (pede ajuda aos teus pais).
+2. Carrega em "New repository". Nome: caderneta. Escolhe "Public" e carrega em "Create repository".
+3. Carrega em "uploading an existing file" e arrasta para lá TUDO o que está dentro desta pasta
+   (index.html, app.js, game.js, extras.js, fun.js, duel.js, data.js, privacidade.html, style.css, sw.js, manifest.webmanifest e as pastas icons e i18n).
+   Carrega em "Commit changes".
+4. Vai a Settings > Pages. Em "Branch" escolhe "main" e "/ (root)" e carrega em Save.
+5. Espera 1 a 2 minutos. O endereço aparece nessa página, algo como:
+   https://O-TEU-NOME.github.io/caderneta/
+   Se já tinhas uma versão antiga lá, basta carregar os ficheiros novos por cima.
+
+NO TELEMÓVEL ANDROID:
+- Abre o endereço no Chrome e carrega em "Instalar".
+- Escolhe o idioma, uma alcunha, um avatar e a cor do cartão. Depois vê o tutorial.
+- Vai a "Cópia de segurança e privacidade" > "Importar cópia" e escolhe
+  caderneta-copia-2026-10-25.json para recuperares os teus carros.
+
+MAPA:
+- Ao adicionar um carro, liga "Guardar onde estou" para ele aparecer no mapa (na página Jogador).
+- A localização fica só no teu telemóvel e nunca vai nos ficheiros que partilhas.
+
+AMIGOS:
+- No separador Amigos carrega em "Partilhar" e envia o ficheiro (por exemplo, pelo WhatsApp).
+- O teu amigo abre a app dele, vai a Amigos > "Abrir ficheiro do amigo" e escolhe esse ficheiro.
+
+IMPORTANTE:
+- Os carros e fotos ficam só no telemóvel de cada pessoa. Faz "Guardar cópia" de vez em quando.
+- NÃO metas cópias nem ficheiros de partilha no GitHub: ficariam públicos.
+- Usa uma alcunha, não o teu nome verdadeiro. Partilha só com amigos que conheces.
+
+PÔR NA PLAY STORE (mais tarde, com os teus pais):
+1. Primeiro a app tem de estar online no GitHub Pages (passos de cima).
+2. Abre https://www.pwabuilder.com no computador, cola o endereço da tua app e carrega em "Start".
+3. Carrega em "Package for stores" > "Android" > "Generate". Descarrega o pacote (.aab) e guarda
+   também o ficheiro "signing key" num sítio seguro: vais precisar dele para todas as atualizações.
+4. Cria uma conta de programador em https://play.google.com/console (paga-se uma vez cerca de 25 dólares;
+   tem de ser em nome de um adulto, por exemplo um dos teus pais).
+5. Cria a app na consola, carrega o ficheiro .aab, escreve a descrição, põe capturas de ecrã e o ícone.
+6. Na "Política de privacidade" usa o endereço: https://O-TEU-NOME.github.io/caderneta/privacidade.html
+7. Responde ao questionário de conteúdo e de público-alvo com verdade e envia para revisão.
+   A Google demora alguns dias a aprovar.
+O PWABuilder também explica como pôr o ficheiro "assetlinks.json" no GitHub, para a app abrir
+sem a barra do browser. Segue as instruções que ele mostra.
