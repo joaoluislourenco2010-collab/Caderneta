@@ -1535,6 +1535,105 @@
    "unidades": "331 847 (toutes les Coccinelle Cabrio)",
    "valor_nota": "La Coccinelle la plus chère, toujours en hausse",
    "curiosidade": "Elle était fabriquée par Karmann et a continué à être produite jusqu'en 1980, après l'arrêt de la Coccinelle fermée en Allemagne."
+  },
+  "Renault|Clio|": {
+   "geracao": "5e génération (TCe 100)",
+   "anos": "2019–2024",
+   "motor": "1.0 turbo 3 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "La Clio a été élue Voiture de l'année en Europe deux fois : en 1991 et en 2006."
+  },
+  "Peugeot|208|": {
+   "geracao": "2e génération (1.2 PureTech 100)",
+   "anos": "2019–2023",
+   "motor": "1.2 turbo 3 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "Elle a été Voiture de l'année en Europe en 2020 et a un tableau de bord « 3D » qu'on voit au-dessus d'un tout petit volant."
+  },
+  "Dacia|Sandero|": {
+   "geracao": "3e génération (TCe 90)",
+   "anos": "2020–aujourd'hui",
+   "motor": "1.0 turbo 3 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "En 2024, c'était la voiture la plus vendue de toute l'Europe, devant des marques bien plus chères."
+  },
+  "Volkswagen|Golf|": {
+   "geracao": "Golf 8 (1.5 TSI 130)",
+   "anos": "2020–aujourd'hui",
+   "motor": "1.5 turbo 4 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "Depuis 1974, plus de 37 millions de Golf ont été fabriquées : c'est une des voitures les plus vendues de l'histoire."
+  },
+  "Volkswagen|Polo|": {
+   "geracao": "Polo 6 (1.0 TSI 95)",
+   "anos": "2017–aujourd'hui",
+   "motor": "1.0 turbo 3 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "La Polo est fabriquée depuis 1975 et cette génération est déjà plus grande que la première Golf."
+  },
+  "Opel|Corsa|": {
+   "geracao": "Corsa F (1.2 Turbo 100)",
+   "anos": "2019–aujourd'hui",
+   "motor": "1.2 turbo 3 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "En dessous, elle est presque identique à la Peugeot 208 : Opel et Peugeot font partie du même groupe, Stellantis."
+  },
+  "Fiat|Panda|": {
+   "geracao": "3e génération (1.2)",
+   "anos": "2012–2024",
+   "motor": "1.2 4 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "La première Panda, de 1980, a été dessinée par Giorgetto Giugiaro, le même que la DeLorean et la première Golf."
+  },
+  "Toyota|Corolla|": {
+   "geracao": "12e génération (1.8 hybride)",
+   "anos": "2019–2022",
+   "motor": "1.8 essence + moteur électrique (hybride)",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "C'est le modèle le plus vendu de l'histoire : plus de 50 millions de Corolla depuis 1966."
+  },
+  "Mercedes-Benz|Classe C|": {
+   "geracao": "W206 (C 220 d)",
+   "anos": "2021–aujourd'hui",
+   "motor": "2.0 turbodiesel 4 cylindres avec assistance électrique",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "Le grand-père de la Classe C est la 190 de 1982, surnommée « Baby Benz » car c'était la plus petite Mercedes."
+  },
+  "Tesla|Model Y|": {
+   "geracao": "Model Y Long Range (transmission intégrale)",
+   "anos": "2021–2025",
+   "motor": "Électrique, 2 moteurs",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "En 2023, c'était la voiture la plus vendue au monde : la première fois qu'une électrique finissait 1re."
+  },
+  "BYD|Seal|": {
+   "geracao": "Seal AWD Excellence",
+   "anos": "2023–aujourd'hui",
+   "motor": "Électrique, 2 moteurs",
+   "valor_nota": "neuves au Portugal, selon la version",
+   "curiosidade": "La batterie fait partie de la structure même de la voiture, ce qui la rend plus rigide et plus légère."
+  },
+  "Renault|5|E-Tech": {
+   "geracao": "Renault 5 E-Tech (150 ch, 52 kWh)",
+   "anos": "2024–aujourd'hui",
+   "motor": "Électrique, 1 moteur",
+   "valor_nota": "neuves au Portugal, selon la version",
+   "curiosidade": "Elle rend hommage à la Renault 5 de 1972, et la « prise d'air » du capot est en fait un indicateur de charge de la batterie."
+  },
+  "Hyundai|i30 N|": {
+   "geracao": "i30 N Performance",
+   "anos": "2020–2024",
+   "motor": "2.0 turbo 4 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "Le « N » vient de Namyang, le centre d'essais de Hyundai en Corée, et du Nürburgring, le circuit allemand où elle a été mise au point."
+  },
+  "Cupra|Formentor|VZ5": {
+   "geracao": "Formentor VZ5 (2.5 TSI)",
+   "anos": "2021–2024",
+   "motor": "2.5 turbo 5 cylindres essence",
+   "valor_nota": "occasions au Portugal, selon l'année et le kilométrage",
+   "curiosidade": "Il a le même moteur 5 cylindres que l'Audi RS 3 et a été produit en série limitée.",
+   "unidades": "environ 7 000"
   }
  }
 }

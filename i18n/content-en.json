@@ -1535,6 +1535,105 @@
    "unidades": "331 847 (all Beetle Cabrios)",
    "valor_nota": "The most valuable Beetle, always in demand",
    "curiosidade": "It was made by Karmann and stayed in production until 1980, after the Beetle saloon had already ended production in Germany."
+  },
+  "Renault|Clio|": {
+   "geracao": "5th generation (TCe 100)",
+   "anos": "2019–2024",
+   "motor": "1.0 turbo 3-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The Clio has been European Car of the Year twice: in 1991 and in 2006."
+  },
+  "Peugeot|208|": {
+   "geracao": "2nd generation (1.2 PureTech 100)",
+   "anos": "2019–2023",
+   "motor": "1.2 turbo 3-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "It was European Car of the Year 2020 and has a «3D» dashboard that you see over a tiny steering wheel."
+  },
+  "Dacia|Sandero|": {
+   "geracao": "3rd generation (TCe 90)",
+   "anos": "2020–present",
+   "motor": "1.0 turbo 3-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "In 2024 it was the best-selling car in all of Europe, ahead of much more expensive brands."
+  },
+  "Volkswagen|Golf|": {
+   "geracao": "Golf 8 (1.5 TSI 130)",
+   "anos": "2020–present",
+   "motor": "1.5 turbo 4-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "More than 37 million Golfs have been built since 1974 — one of the best-selling cars ever."
+  },
+  "Volkswagen|Polo|": {
+   "geracao": "Polo 6 (1.0 TSI 95)",
+   "anos": "2017–present",
+   "motor": "1.0 turbo 3-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The Polo has been made since 1975, and this generation is already bigger than the first Golf."
+  },
+  "Opel|Corsa|": {
+   "geracao": "Corsa F (1.2 Turbo 100)",
+   "anos": "2019–present",
+   "motor": "1.2 turbo 3-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "Underneath it's almost the same as the Peugeot 208: Opel and Peugeot belong to the same group, Stellantis."
+  },
+  "Fiat|Panda|": {
+   "geracao": "3rd generation (1.2)",
+   "anos": "2012–2024",
+   "motor": "1.2 4-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The first Panda, from 1980, was designed by Giorgetto Giugiaro, who also drew the DeLorean and the first Golf."
+  },
+  "Toyota|Corolla|": {
+   "geracao": "12th generation (1.8 hybrid)",
+   "anos": "2019–2022",
+   "motor": "1.8 petrol + electric motor (hybrid)",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "It's the best-selling model in history: more than 50 million Corollas have been built since 1966."
+  },
+  "Mercedes-Benz|Classe C|": {
+   "geracao": "W206 (C 220 d)",
+   "anos": "2021–present",
+   "motor": "2.0 4-cylinder turbodiesel with electric assist",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The C-Class's grandfather is the 1982 190, nicknamed «Baby Benz» because it was the smallest Mercedes."
+  },
+  "Tesla|Model Y|": {
+   "geracao": "Model Y Long Range (all-wheel drive)",
+   "anos": "2021–2025",
+   "motor": "Electric, 2 motors",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "In 2023 it was the best-selling car in the world — the first time an electric car came first."
+  },
+  "BYD|Seal|": {
+   "geracao": "Seal AWD Excellence",
+   "anos": "2023–present",
+   "motor": "Electric, 2 motors",
+   "valor_nota": "new in Portugal, depending on version",
+   "curiosidade": "The battery is part of the car's own structure, which makes it stiffer and lighter."
+  },
+  "Renault|5|E-Tech": {
+   "geracao": "Renault 5 E-Tech (150 hp, 52 kWh)",
+   "anos": "2024–present",
+   "motor": "Electric, 1 motor",
+   "valor_nota": "new in Portugal, depending on version",
+   "curiosidade": "It pays tribute to the 1972 Renault 5, and the «air vent» on the bonnet is actually a battery charge indicator."
+  },
+  "Hyundai|i30 N|": {
+   "geracao": "i30 N Performance",
+   "anos": "2020–2024",
+   "motor": "2.0 turbo 4-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "The «N» comes from Namyang, Hyundai's test centre in Korea, and from the Nürburgring, the German track where it was tuned."
+  },
+  "Cupra|Formentor|VZ5": {
+   "geracao": "Formentor VZ5 (2.5 TSI)",
+   "anos": "2021–2024",
+   "motor": "2.5 turbo 5-cylinder petrol",
+   "valor_nota": "used in Portugal, depending on year and mileage",
+   "curiosidade": "It has the same 5-cylinder engine as the Audi RS 3 and was made in a limited series.",
+   "unidades": "about 7,000"
   }
  }
 }

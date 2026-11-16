@@ -107,6 +107,7 @@
  "modelOf": "{b} · model {i} of {n}",
  "rarityStreet": "Street rarity",
  "noSpec": "There's no spec sheet for this model yet.",
+ "hasSpec": "Has a spec sheet",
  "specTitle": "Spec sheet",
  "versionsCaught": "versions caught",
  "noVersions": "This model has no special versions on the list.",

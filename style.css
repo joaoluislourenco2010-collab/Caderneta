@@ -205,6 +205,7 @@ button.mt:hover { border-color: var(--muted); }
 .mt .th .rb .badge { font-size: 11px; padding: 2px 6px 2px 2px; gap: 4px; }
 .mt .th .rb .badge i { padding: 0 4px; }
 .mt.locked .th .rb { opacity: .85; }
+.mt .th .spc { position: absolute; right: 6px; top: 6px; z-index: 1; font-size: 13px; line-height: 1; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px 5px; }
 .hist { margin: 0; line-height: 1.55; }
 .hist.lockd { color: var(--muted); }
 .mh { display: flex; flex-direction: column; gap: 6px; }

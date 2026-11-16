@@ -107,6 +107,7 @@
  "modelOf": "{b} · Modell {i} von {n}",
  "rarityStreet": "Seltenheit auf der Straße",
  "noSpec": "Für dieses Modell gibt es noch kein Datenblatt.",
+ "hasSpec": "Mit Datenblatt",
  "specTitle": "Datenblatt",
  "versionsCaught": "Versionen gefangen",
  "noVersions": "Für dieses Modell sind keine Sonderversionen gelistet.",

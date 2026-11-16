@@ -1,4 +1,11 @@
-CADERNETA DE CARROS v8 - como pôr a app online (grátis)
+CADERNETA DE CARROS v9 - como pôr a app online (grátis)
+
+NOVIDADES v9:
+- 14 fichas técnicas novas de carros que se veem todos os dias na rua: Renault Clio,
+  Peugeot 208, Dacia Sandero, VW Golf e Polo, Opel Corsa, Fiat Panda, Toyota Corolla,
+  Mercedes Classe C, Tesla Model Y, BYD Seal, Renault 5 E-Tech, Hyundai i30 N e Cupra Formentor VZ5.
+  (Também entram no Duelo e no Quiz.)
+- No Marcadex, os modelos e versões que têm ficha técnica mostram um 📋 no canto.
 
 NOVIDADES v8:
 - Partilhar fotos para a app: na galeria do telemóvel carrega em Partilhar → Caderneta

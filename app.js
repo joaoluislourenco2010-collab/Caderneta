@@ -420,11 +420,13 @@ function brandBuckets(d) {
   cs.forEach(c => { const i = matchModel(d.name, c.modelo); (i == null ? others : buckets[i]).push(c); });
   return { cs, models, buckets: buckets.map(sortBest), others: sortBest(others) };
 }
-function tileHtml(name, arr, attr, r) {
+const SPEC_MODELS = new Set(Object.keys(SPECS).map(k => k.split("|").slice(0, 2).join("|")));
+const specChip = () => `<span class="spc" role="img" title="${esc(t("hasSpec"))}" aria-label="${esc(t("hasSpec"))}">📋</span>`;
+function tileHtml(name, arr, attr, r, spec) {
   const best = sortBest(arr), f = best.find(c => c.foto && blobUrl(c.foto));
-  if (!arr.length) return `<button type="button" class="mt locked" ${attr}><div class="th">${r ? rBadge(r) : ""}<span class="q">?</span></div><div class="tx"><b>${esc(name)}</b><small>${esc(t("toCatch"))}</small></div></button>`;
+  if (!arr.length) return `<button type="button" class="mt locked" ${attr}><div class="th">${r ? rBadge(r) : ""}${spec ? specChip() : ""}<span class="q">?</span></div><div class="tx"><b>${esc(name)}</b><small>${esc(t("toCatch"))}</small></div></button>`;
   return `<button type="button" class="mt" ${attr}>
-    <div class="th">${r ? rBadge(r) : ""}${f ? `<img src="${blobUrl(f.foto)}" alt="" loading="lazy">` : `<span class="q">✓</span>`}</div>
+    <div class="th">${r ? rBadge(r) : ""}${spec ? specChip() : ""}${f ? `<img src="${blobUrl(f.foto)}" alt="" loading="lazy">` : `<span class="q">✓</span>`}</div>
     <div class="tx"><b>${esc(name)}</b><small>${esc(t("caughtN", { n: arr.length }))}</small></div></button>`;
 }
 function renderBrandView(v) {
@@ -445,7 +447,7 @@ function renderBrandView(v) {
     <div class="dexhead"><div class="dexprog"><b>${gotN}</b> / ${models.length} ${esc(t("modelsCaught"))}</div>
       <div class="pbar"><span id="brandBar"></span></div></div>
     <p class="meta" style="margin:0;color:var(--muted);font-size:13px">${esc(t("modelHint"))}</p>
-    <div class="mgrid">${models.map((m, i) => tileHtml(dispName(m.name), buckets[i], `data-m="${i}"`, m.r)).join("")}</div>
+    <div class="mgrid">${models.map((m, i) => tileHtml(dispName(m.name), buckets[i], `data-m="${i}"`, m.r, SPEC_MODELS.has(d.name + "|" + m.name))).join("")}</div>
     ${others.length ? `<h3 class="sect">${esc(t("otherModels"))}</h3><div class="mgrid">${others.map((c, i) => tileHtml(c.modelo || t("noName"), [c], `data-o="${i}"`, 0)).join("")}</div>` : ""}
   </div>`;
   growBar($("brandBar"), (models.length ? (gotN / models.length * 100).toFixed(1) : 0) + "%");
@@ -470,7 +472,7 @@ function renderModelView(v) {
       ${!mine.length && typeof wishBtn === "function" ? wishBtn(d.name, m.name) : ""}</div>
     ${specBlock}
     ${m.vers.length ? `<div class="dexhead"><div class="dexprog"><b>${gotV}</b> / ${m.vers.length} ${esc(t("versionsCaught"))}</div><div class="pbar"><span id="modelBar"></span></div></div>
-      <div class="mgrid">${m.vers.map((ver, i) => tileHtml(dispName(ver.name), vb[i], `data-v="${i}"`, ver.r)).join("")}</div>` : `<p class="meta" style="margin:0;color:var(--muted)">${esc(t("noVersions"))}</p>`}
+      <div class="mgrid">${m.vers.map((ver, i) => tileHtml(dispName(ver.name), vb[i], `data-v="${i}"`, ver.r, !!SPECS[`${d.name}|${m.name}|${ver.name}`])).join("")}</div>` : `<p class="meta" style="margin:0;color:var(--muted)">${esc(t("noVersions"))}</p>`}
     <h3 class="sect">${esc(t("yourModels", { m: dispName(m.name) }))}</h3>
     ${mine.length ? `<div class="mgrid">${v._mine.map((c, i) => tileHtml(c.modelo || m.name, [c], `data-c="${i}"`, 0)).join("")}</div>` : `<p class="meta" style="margin:0;color:var(--muted)">${esc(t("notCaughtModel"))}</p>`}
   </div>`;

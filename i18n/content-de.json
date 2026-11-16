@@ -1535,6 +1535,105 @@
    "unidades": "331 847 (alle Käfer Cabrios)",
    "valor_nota": "Der wertvollste Käfer, Preise immer im Aufwind",
    "curiosidade": "Es wurde von Karmann gebaut und lief bis 1980 weiter vom Band, als der geschlossene Käfer in Deutschland schon nicht mehr produziert wurde."
+  },
+  "Renault|Clio|": {
+   "geracao": "5. Generation (TCe 100)",
+   "anos": "2019–2024",
+   "motor": "1.0 Turbo-Dreizylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Der Clio war zweimal Europas Auto des Jahres: 1991 und 2006."
+  },
+  "Peugeot|208|": {
+   "geracao": "2. Generation (1.2 PureTech 100)",
+   "anos": "2019–2023",
+   "motor": "1.2 Turbo-Dreizylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Er war 2020 Europas Auto des Jahres und hat ein «3D»-Cockpit, das man über einem winzigen Lenkrad sieht."
+  },
+  "Dacia|Sandero|": {
+   "geracao": "3. Generation (TCe 90)",
+   "anos": "2020–heute",
+   "motor": "1.0 Turbo-Dreizylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "2024 war er das meistverkaufte Auto ganz Europas, vor viel teureren Marken."
+  },
+  "Volkswagen|Golf|": {
+   "geracao": "Golf 8 (1.5 TSI 130)",
+   "anos": "2020–heute",
+   "motor": "1.5 Turbo-Vierzylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Seit 1974 wurden über 37 Millionen Golf gebaut – einer der meistverkauften Autos aller Zeiten."
+  },
+  "Volkswagen|Polo|": {
+   "geracao": "Polo 6 (1.0 TSI 95)",
+   "anos": "2017–heute",
+   "motor": "1.0 Turbo-Dreizylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Den Polo gibt es seit 1975, und diese Generation ist schon größer als der erste Golf."
+  },
+  "Opel|Corsa|": {
+   "geracao": "Corsa F (1.2 Turbo 100)",
+   "anos": "2019–heute",
+   "motor": "1.2 Turbo-Dreizylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Darunter ist er fast gleich wie der Peugeot 208: Opel und Peugeot gehören zum selben Konzern, Stellantis."
+  },
+  "Fiat|Panda|": {
+   "geracao": "3. Generation (1.2)",
+   "anos": "2012–2024",
+   "motor": "1.2 Vierzylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Der erste Panda von 1980 wurde von Giorgetto Giugiaro gezeichnet – genau wie der DeLorean und der erste Golf."
+  },
+  "Toyota|Corolla|": {
+   "geracao": "12. Generation (1.8 Hybrid)",
+   "anos": "2019–2022",
+   "motor": "1.8 Benziner + Elektromotor (Hybrid)",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Es ist das meistverkaufte Modell der Geschichte: Seit 1966 wurden über 50 Millionen Corolla gebaut."
+  },
+  "Mercedes-Benz|Classe C|": {
+   "geracao": "W206 (C 220 d)",
+   "anos": "2021–heute",
+   "motor": "2.0 Vierzylinder-Turbodiesel mit Elektro-Unterstützung",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Der Großvater der C-Klasse ist der 190 von 1982, «Baby-Benz» genannt, weil er der kleinste Mercedes war."
+  },
+  "Tesla|Model Y|": {
+   "geracao": "Model Y Long Range (Allradantrieb)",
+   "anos": "2021–2025",
+   "motor": "Elektro, 2 Motoren",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "2023 war er das meistverkaufte Auto der Welt – zum ersten Mal lag ein Elektroauto auf Platz 1."
+  },
+  "BYD|Seal|": {
+   "geracao": "Seal AWD Excellence",
+   "anos": "2023–heute",
+   "motor": "Elektro, 2 Motoren",
+   "valor_nota": "Neuwagen in Portugal, je nach Version",
+   "curiosidade": "Die Batterie ist Teil der Karosseriestruktur selbst, das macht ihn steifer und leichter."
+  },
+  "Renault|5|E-Tech": {
+   "geracao": "Renault 5 E-Tech (150 PS, 52 kWh)",
+   "anos": "2024–heute",
+   "motor": "Elektro, 1 Motor",
+   "valor_nota": "Neuwagen in Portugal, je nach Version",
+   "curiosidade": "Er ehrt den Renault 5 von 1972, und der «Lufteinlass» auf der Haube ist in Wahrheit eine Ladeanzeige für die Batterie."
+  },
+  "Hyundai|i30 N|": {
+   "geracao": "i30 N Performance",
+   "anos": "2020–2024",
+   "motor": "2.0 Turbo-Vierzylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Das «N» steht für Namyang, Hyundais Testzentrum in Korea, und für den Nürburgring, wo er abgestimmt wurde."
+  },
+  "Cupra|Formentor|VZ5": {
+   "geracao": "Formentor VZ5 (2.5 TSI)",
+   "anos": "2021–2024",
+   "motor": "2.5 Turbo-Fünfzylinder-Benziner",
+   "valor_nota": "Gebrauchtwagen in Portugal, je nach Baujahr und km",
+   "curiosidade": "Er hat denselben Fünfzylinder wie der Audi RS 3 und wurde in limitierter Serie gebaut.",
+   "unidades": "ca. 7000"
   }
  }
 }

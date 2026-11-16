@@ -1,4 +1,4 @@
-const CACHE = "caderneta-v8b", SHARE = "partilha-in";
+const CACHE = "caderneta-v9", SHARE = "partilha-in";
 const SHELL = ["./", "index.html", "style.css", "app.js", "game.js", "extras.js", "fun.js", "duel.js", "tools.js", "data.js", "privacidade.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png",
   ...["pt", "en", "es", "fr", "de"].flatMap(l => [`i18n/ui-${l}.json`, `i18n/content-${l}.json`])];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });

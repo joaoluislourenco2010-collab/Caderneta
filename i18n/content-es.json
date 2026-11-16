@@ -1535,6 +1535,105 @@
    "unidades": "331 847 (todos los Escarabajo Cabrio)",
    "valor_nota": "El Escarabajo más valioso, siempre al alza",
    "curiosidade": "Lo fabricaba Karmann y se siguió produciendo hasta 1980, cuando el Escarabajo cerrado ya había dejado de fabricarse en Alemania."
+  },
+  "Renault|Clio|": {
+   "geracao": "5.ª generación (TCe 100)",
+   "anos": "2019–2024",
+   "motor": "1.0 turbo 3 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "El Clio ha sido elegido Coche del Año en Europa dos veces: en 1991 y en 2006."
+  },
+  "Peugeot|208|": {
+   "geracao": "2.ª generación (1.2 PureTech 100)",
+   "anos": "2019–2023",
+   "motor": "1.2 turbo 3 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "Fue Coche del Año en Europa en 2020 y tiene un cuadro «3D» que se ve por encima de un volante pequeñito."
+  },
+  "Dacia|Sandero|": {
+   "geracao": "3.ª generación (TCe 90)",
+   "anos": "2020–presente",
+   "motor": "1.0 turbo 3 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "En 2024 fue el coche más vendido de toda Europa, por delante de marcas mucho más caras."
+  },
+  "Volkswagen|Golf|": {
+   "geracao": "Golf 8 (1.5 TSI 130)",
+   "anos": "2020–presente",
+   "motor": "1.5 turbo 4 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "Desde 1974 se han fabricado más de 37 millones de Golf: es uno de los coches más vendidos de la historia."
+  },
+  "Volkswagen|Polo|": {
+   "geracao": "Polo 6 (1.0 TSI 95)",
+   "anos": "2017–presente",
+   "motor": "1.0 turbo 3 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "El Polo se fabrica desde 1975 y esta generación ya es más grande que el primer Golf."
+  },
+  "Opel|Corsa|": {
+   "geracao": "Corsa F (1.2 Turbo 100)",
+   "anos": "2019–presente",
+   "motor": "1.2 turbo 3 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "Por debajo es casi igual que el Peugeot 208: Opel y Peugeot pertenecen al mismo grupo, Stellantis."
+  },
+  "Fiat|Panda|": {
+   "geracao": "3.ª generación (1.2)",
+   "anos": "2012–2024",
+   "motor": "1.2 4 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "El primer Panda, de 1980, lo diseñó Giorgetto Giugiaro, el mismo del DeLorean y del primer Golf."
+  },
+  "Toyota|Corolla|": {
+   "geracao": "12.ª generación (1.8 híbrido)",
+   "anos": "2019–2022",
+   "motor": "1.8 de gasolina + motor eléctrico (híbrido)",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "Es el modelo más vendido de la historia: desde 1966 se han fabricado más de 50 millones de Corolla."
+  },
+  "Mercedes-Benz|Classe C|": {
+   "geracao": "W206 (C 220 d)",
+   "anos": "2021–presente",
+   "motor": "2.0 turbodiésel 4 cilindros con ayuda eléctrica",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "El abuelo del Clase C es el 190, de 1982, al que llamaban «Baby Benz» por ser el Mercedes más pequeño."
+  },
+  "Tesla|Model Y|": {
+   "geracao": "Model Y Long Range (tracción total)",
+   "anos": "2021–2025",
+   "motor": "Eléctrico, 2 motores",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "En 2023 fue el coche más vendido del mundo: la primera vez que un eléctrico quedó en 1.er lugar."
+  },
+  "BYD|Seal|": {
+   "geracao": "Seal AWD Excellence",
+   "anos": "2023–presente",
+   "motor": "Eléctrico, 2 motores",
+   "valor_nota": "nuevos en Portugal, según versión",
+   "curiosidade": "La batería forma parte de la propia estructura del coche, lo que lo hace más rígido y ligero."
+  },
+  "Renault|5|E-Tech": {
+   "geracao": "Renault 5 E-Tech (150 CV, 52 kWh)",
+   "anos": "2024–presente",
+   "motor": "Eléctrico, 1 motor",
+   "valor_nota": "nuevos en Portugal, según versión",
+   "curiosidade": "Homenajea al Renault 5 de 1972, y la «toma de aire» del capó es en realidad un indicador de la carga de la batería."
+  },
+  "Hyundai|i30 N|": {
+   "geracao": "i30 N Performance",
+   "anos": "2020–2024",
+   "motor": "2.0 turbo 4 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "La «N» viene de Namyang, el centro de pruebas de Hyundai en Corea, y de Nürburgring, el circuito alemán donde se puso a punto."
+  },
+  "Cupra|Formentor|VZ5": {
+   "geracao": "Formentor VZ5 (2.5 TSI)",
+   "anos": "2021–2024",
+   "motor": "2.5 turbo 5 cilindros de gasolina",
+   "valor_nota": "usados en Portugal, según año y km",
+   "curiosidade": "Tiene el mismo motor de 5 cilindros que el Audi RS 3 y se fabricó en serie limitada.",
+   "unidades": "unas 7000"
   }
  }
 }
